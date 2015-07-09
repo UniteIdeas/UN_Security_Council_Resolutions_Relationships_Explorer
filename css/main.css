@@ -1,0 +1,213 @@
+body, table{
+    font-size: 13px;
+    font-family: arial;
+    color : #666666;
+}
+
+.title-container{
+    padding-left: 20px;
+}
+
+.page-title{
+    font-size: 1.5em;
+}
+
+.help-txt{
+    font-size: 1em;
+}
+
+.data-viz-container{
+    width: 100%;
+    height: 100%;
+}
+
+.node {
+    cursor: pointer;
+    stroke: #AAA;
+    stroke-width: 1px;
+}
+
+.link {
+    fill: none;
+    stroke: #AAA;
+    stroke-width: 1.5px;
+    z-index: 50;
+}
+
+.svg-rect{
+    fill: none;
+    stroke: #CCC;
+    stroke-width: 1px;
+    z-index: 100;
+
+}
+
+.rect-circular{
+
+}
+
+.node text {
+    pointer-events: none;
+    font: 10px sans-serif;
+}
+
+.rect-mandate{
+}
+
+.rect-mandate-title{
+    stroke: #CCC;
+    stroke-width: 1px;
+}
+
+.rect-root-title{
+    stroke: #CCC;
+    stroke-width: 1px;
+}
+
+.resolution-text{
+    font-weight: bold;
+}
+
+.constellation-g{
+
+    cursor: pointer;
+}
+
+.floating-slider{
+    position: absolute;
+}
+
+.zoom-slider-cntnr{
+    width :20px;
+    height: 100px;
+}
+
+.node-slider-cntnr{
+    width: 100px;
+    height: 20px;
+}
+
+.selected-circle-rect{
+    fill: blue;
+}
+
+.selected-rect{
+    stroke: #666;
+    stroke-width: 1px;
+}
+
+.selected-text{
+
+    font-weight: bold;
+}
+
+.while-selected-text{
+    fill : #FFFFFF;
+}
+
+.visual-element-title {
+    font-weight: bold;
+}
+
+.element-title {
+    font-size: 21px;
+}
+
+.resolution-dtl-svg-cntnr {
+    border: 1px solid #999999;
+    padding: 10px;
+    padding-right : 0px;
+}
+
+.resolution-dtl-legend-cntnr {
+    padding-top: 20px;
+}
+
+.mandate-rect-transparent{
+    fill : #FFFFFF;
+    /*fill : transparent;*/
+}
+
+.mandate-rect-selected{
+    fill : #92C7C7;
+    color : #FFFFFF;
+    stroke: #666;
+    stroke-width: 1px;
+}
+
+.mandate-text-transparent{
+
+}
+
+.mandate-text-selected{
+    fill : #FFFFFF;
+    font-weight: bold;
+}
+
+.cleanup-nav-btn {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color:#ededed;
+    -webkit-border-top-left-radius:20px;
+    -moz-border-radius-topleft:20px;
+    border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    -moz-border-radius-topright:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Arial;
+    font-size:11px;
+    font-weight:bold;
+    font-style:normal;
+    height:20px;
+    line-height:20px;
+    width:181px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+}
+.cleanup-nav-btn:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+    background-color:#dfdfdf;
+}.cleanup-nav-btn:active {
+     position:relative;
+     top:1px;
+ }
+
+.root-node-hint
+{
+    font-size : 12px;
+}
+
+#hint-div {
+    position: absolute;
+    display: none;
+    /*bottom: 0;*/
+    width: 300px;
+    /*left: -125px;*/
+    /*height : 200px;*/
+    font-size: 12px;
+    line-height: 17px;
+    padding: 10px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.9);
+    color: #000;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    border:1px solid rgba(200,200,200,0.85);
+}

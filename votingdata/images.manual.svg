@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" title="SCR Votes - 1590" width="1000" height="120" viewBox="0 0 800 120" id="imagesSVG" imageSelected="2" imageBorderDefault="white" imageBorderHighlight="grey">
+  <!-- svg id="image1" width="250px" height="100px" x="0px" y="0px" -->
+  <svg id="image1svg" width="50" height="100">
+    <rect id="image1Rect" fill="#ffffff" stroke="white" stroke-width="1"/>
+    <image id="image1" width="50" height="100"  xlink:href="images/redperson.png" />
+    <text id="image1Label" name="US" font-size="&#10;10pt&#10;" fill="black" x="10" y="90">US</text>
+  </svg>
+  <!-- svg id="image2" width="250px" height="150px" x="250px" y="0px" -->
+  <svg id="image2svg" x="50" y="0"  >
+    <rect id="image2Rect" width="50" height="100" fill="#ffffff" stroke="white" stroke-width="1"/>
+    <image id="image2" width="50" height="100" xlink:href="images/person.png" />
+    <text id="image2Label" name="UK" font-size="&#10;10pt&#10;" fill="black" x="10" y="90">UK</text>
+  </svg>
+  <svg id="image3svg" x="100" y="0" >
+    <rect id="image3Rect" width="50" height="100" fill="#ffffff" stroke="white" stroke-width="1"/>
+    <image id="image3" width="50" height="100" xlink:href="images/greyperson.png" />
+    <text id="image2Label" name="France" font-size="&#10;10pt&#10;" fill="black" x="10" y="90">France</text>
+  </svg>
+  <svg id="image3svg" x="150" y="0" >
+    <rect id="image3Rect" width="50" height="100" fill="#ffffff" stroke="white" stroke-width="1"/>
+    <image id="image3" width="50" height="100" xlink:href="images/greyperson.png" />
+    <text id="image2Label" name="France" font-size="&#10;10pt&#10;" fill="black" x="10" y="90">Russia</text>
+  </svg>
+</svg>

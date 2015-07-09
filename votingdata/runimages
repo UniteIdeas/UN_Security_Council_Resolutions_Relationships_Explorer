@@ -1,0 +1,3 @@
+xsltproc images.xsl images_$1.xml > images_$1.svg
+
+

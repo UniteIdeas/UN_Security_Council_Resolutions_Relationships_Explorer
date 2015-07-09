@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<images>
+   <title>Resolution 1590</title>
+   <uniformImageWidth>60</uniformImageWidth>
+   <uniformImageHeight>100</uniformImageHeight>
+   <viewbox_width>1500</viewbox_width>
+   <viewbox_height>120</viewbox_height>
+   <imageBorderDefault>white</imageBorderDefault>
+   <imageBorderHighlight>white</imageBorderHighlight>
+   <image position="1" name="USA" vote="y"/>
+   <image position="2" name="UK" vote="y"/>
+   <image position="3" name="Russia" vote="y"/>
+   <image position="4" name="france" vote="y"/>
+   <image position="5" name="China" vote="y"/>
+   <image position="6" name="" vote="blankspot"/>
+   <image position="7" name="USA" vote="y"/>
+   <image position="8" name="USA" vote="n"/>
+   <image position="9" name="USA" vote="n"/>
+   <image position="10" name="USA" vote="a"/>
+   <image position="11" name="USA" vote="y"/>
+   <image position="12" name="USA" vote="y"/>
+   <image position="13" name="USA" vote="y"/>
+   <image position="14" name="USA" vote="y"/>
+   <image position="15" name="USA" vote="y"/>
+   <image position="16" name="USA" vote="y"/>
+   <image position="17" name="USA" vote="y"/>
+   <image position="18" name="USA" vote="y"/>
+   <image position="19" name="USA" vote="y"/>
+   <image position="20" name="USA" vote="y"/>
+   <image position="21" name="USA" vote="y"/>
+</images>

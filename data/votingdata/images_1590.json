@@ -1,0 +1,87 @@
+{
+    "title": "1590",
+    "uniformImageWidth": "52",
+    "uniformImageHeight": "100",
+    "viewbox_width": "1500",
+    "viewbox_height": "120",
+    "imageBorderDefault": "white",
+    "imageBorderHighlight": "white",
+    "image": [
+        {
+            "position": "1",
+            "name": "USA",
+            "vote": "y"
+        },
+        {
+            "position": "2",
+            "name": "GRBR",
+            "vote": "y"
+        },
+        {
+            "position": "3",
+            "name": "RUS",
+            "vote": "y"
+        },
+        {
+            "position": "4",
+            "name": "FRAN",
+            "vote": "y"
+        },
+        {
+            "position": "5",
+            "name": "CHIN",
+            "vote": "y"
+        },
+        {
+            "position": "7",
+            "name": "ALGR",
+            "vote": "y",
+            "president": "y"
+        },
+        {
+            "position": "8",
+            "name": "ARG",
+            "vote": "y"
+        },
+        {
+            "position": "9",
+            "name": "BENN",
+            "vote": "y"
+        },
+        {
+            "position": "10",
+            "name": "BRZL",
+            "vote": "y"
+        },
+        {
+            "position": "11",
+            "name": "DEN",
+            "vote": "y"
+        },
+        {
+            "position": "12",
+            "name": "GRC",
+            "vote": "y"
+        },
+        {
+            "position": "13",
+            "name": "JPN",
+            "vote": "y"
+        },
+        {
+            "position": "14",
+            "name": "PHIL",
+            "vote": "y"
+        },
+        {
+            "position": "15",
+            "name": "ROM",
+            "vote": "y"
+        },
+        {
+            "position": "16",
+            "name": "TAZN",
+            "vote": "y"
+        }
+    ]
+}

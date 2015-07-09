@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<data>
+  <missionData>
+    <mission>unmis</mission>
+    <mandateNumber>36</mandateNumber>
+    <leadEntity>DPKO</leadEntity>
+    <mandateSource>
+      <res>
+        <num>1590</num>
+        <year>2005</year>
+        <first>true</first>
+        <clauses>
+          <clause>
+            <num>16</num>
+            <link/>
+            <area>Chapter VII</area>
+          </clause>
+          <clause>
+            <num>16/i</num>
+            <link/>
+            <area>Authorization of the use of force</area>
+          </clause>
+          <clause>
+            <num>4/a/ix</num>
+            <link/>
+            <area>Promote and protect</area>
+          </clause>
+          <clause>
+            <num>4/d</num>
+            <link/>
+            <area>Promote and protect</area>
+          </clause>
+        </clauses>
+      </res>
+      <res>
+        <num>1663</num>
+        <year>2006</year>
+      </res>
+      <res>
+        <num>1706</num>
+        <year>2006</year>
+        <clauses>
+          <clause>
+            <num>10</num>
+            <link/>
+            <area>Chapter VII</area>
+          </clause>
+          <clause>
+            <num>12/a</num>
+            <area>Authorization of the use of force</area>
+          </clause>
+          <clause>
+            <num>4/k</num>
+            <area>Promote and protect</area>
+          </clause>
+          <clause>
+            <num>9/b</num>
+            <area>Promote and protect</area>
+          </clause>
+          <clause>
+            <num>9/b</num>
+            <area>Monitoring</area>
+          </clause>
+          <clause>
+	    <num>8/f</num>
+            <area>Children and Armed Conflict</area>
+          </clause>
+          <clause>
+            <num>8/i</num>
+            <area>Women and Peace Security</area>
+          </clause>
+        </clauses>
+      </res>
+      <res>
+        <num>1919</num>
+        <year>2010</year>
+        <latest>true</latest>
+        <expires>30 April 2011</expires>
+        <clauses>
+          <clause>
+            <num>19</num>
+            <area>Children and Armed Conflict</area>
+          </clause>
+        </clauses>
+      </res>
+    </mandateSource>
+  </missionData>
+</data>
+

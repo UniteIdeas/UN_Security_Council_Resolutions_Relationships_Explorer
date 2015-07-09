@@ -1,0 +1,54 @@
+grep -i -o -f whitelist.txt resrawtext/sres$1 > interm/diffs/$1.filtered
+grep -i -o -f whitelist.txt resrawtext/sres$2 > interm/diffs/$2.filtered
+cd interm/diffs
+sed 's/ /~/g' $1.filtered > $1.seded
+awk '{ print tolower($0) }' $1.seded > $1.awked
+sort -b -d -f $1.awked | uniq -i > $1.uniq
+sed 's/ /~/g' $2.filtered > $2.seded
+awk '{ print tolower($0) }' $2.seded > $2.awked
+sort -b -d -f $2.awked | uniq -i > $2.uniq
+
+#strict union
+join -i -a1 -a2 $1.uniq $2.uniq | uniq > $1_$2.union
+#strict intersection
+join -i $1.uniq $2.uniq | uniq > $1_$2.inters
+#strict in addition
+join -i -v2 $1.uniq $2.uniq | uniq > $1_$2.added
+#strict missing
+join -i -v1 $1.uniq $2.uniq | uniq > $1_$2.missing
+#strict non-overlapping
+join -i -v1 -v2 $1.uniq $2.uniq | uniq > $1_$2.non-overlapping
+
+#sed 's/~/ /g' $1.uniq > $1.uniq.seded
+#sed 's/~/ /g' $2.uniq > $2.uniq.seded
+#sed 's/~/ /g' $1_$2.union > $1_$2.union.seded
+#sed 's/~/ /g' $1_$2.inters > $1_$2.inters.seded
+#sed 's/~/ /g' $1_$2.added > $1_$2.added.seded
+#sed 's/~/ /g' $1_$2.missing > $1_$2.missing.seded
+#sed 's/~/ /g' $1_$2.non-overlapping > $1_$2.non-overlapping.seded
+
+java -jar ../../soft/ibm-word-cloud.jar -c ../../wordleconfig.txt -w 330 -h 250 < $1.uniq > $1.png
+convert -border 1 -bordercolor "grey" -splice 80x0 -gravity West -annotate 0x0 $1 $1.png $1.gif
+#rm $1.png
+java -jar ../../soft/ibm-word-cloud.jar -c ../../wordleconfig.txt -w 330 -h 250 < $2.uniq > $2.png
+convert -border 1 -bordercolor "grey" -splice 80x0 -gravity West -annotate 0x0 '=   '$2 $2.png $2.gif
+rm $2.png
+java -jar ../../soft/ibm-word-cloud.jar -c ../../wordleconfig.txt -w 330 -h 250 < $1_$2.added > $1_$2_added.png
+convert -border 1 -bordercolor "grey" -splice 80x0 -gravity West -annotate 0x0 '+' $1_$2_added.png $1_$2_added.gif
+rm $1_$2_added.png
+java -jar ../../soft/ibm-word-cloud.jar -c ../../wordleconfig.txt -w 330 -h 250 < $1_$2.missing > $1_$2_missing.png
+convert -border 1 -bordercolor "grey" -splice 80x0 -gravity West -annotate 0x0 '-' $1_$2_missing.png $1_$2_missing.gif
+rm $1_$2_missing.png
+
+#convert -background white  -fill blue  -border 3 -bordercolor lightblue -frame 5x5+0+0 -splice 0x15 -gravity North -annotate 0x0 $1 label:@$1.uniq.seded $1.gif
+#convert -background white  -fill blue  -border 3 -bordercolor lightblue -frame 5x5+0+0 -splice 0x15 -gravity North -annotate 0x0 '=   '$2 label:@$2.uniq.seded $2.gif
+#convert -background white  -fill blue  -border 3 -bordercolor lightblue -frame 5x5+0+0 -splice 0x15 -gravity North -annotate 0x0 '+' label:@$1_$2.added.seded $1_$2_added.gif
+#convert -background white  -fill blue  -border 3 -bordercolor lightblue -frame 5x5+0+0 -splice 0x15 -gravity North -annotate 0x0 '-' label:@$1_$2.missing.seded $1_$2_missing.gif
+
+convert -background white  $1.gif $1_$2_added.gif $1_$2_missing.gif $2.gif -append $1_$2_summary.gif
+
+cp $1_$2_summary.gif ../../../final/.
+
+cd ../..
+
+

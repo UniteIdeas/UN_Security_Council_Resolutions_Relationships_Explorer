@@ -1,0 +1,414 @@
+{
+    "nodes": [
+        {
+            "id": "unmis",
+            "label": "unmis",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "true",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_bg_enabled": "true",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "true",
+            "left_icon_url": "./images/globe.png",
+            "selected_left_icon_url": "./images/globe.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png",
+            "tooltip": "<b>name:</b> unmis\\n<b>country</b>: sudan\\n<b>hq city</b>: khartoum\\n<b>hq country</b>: sudan\\n<b>rep. from 09/07</b>: ashraf qazi\\n<b>rep. between 03/05 and 09/07 - non grata</b>: jan pronk\\n<b>creation date</b>: 24 march 2005\\n<b>creation resolution</b>: 1590\\n<b>creation related doc.</b>: comprehensive peace agreement\\n<b>end date - estimated</b>: 30 april 2011\\n<b>end resolution</b>: 1919\\n<b>thrust area</b>: humanitarian assistance\\n<b>thrust area</b>: promote and protect\\n<b>famous related journalist</b>: lubna al-hussein"
+        },
+        {
+            "id": "1590",
+            "label": "<b>1590</b>\\n(Mar '05/VII/f)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1627",
+            "label": "<b>1627</b>\\n(Sept '05)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1663",
+            "label": "<b>1663</b>\\n(March '06)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1706",
+            "label": "<b>1706</b>\\n(Aug '06/VII/f)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1709",
+            "label": "<b>1709</b>\\n(Sept '06)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1714",
+            "label": "<b>1714</b>\\n(Oct '06)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1755",
+            "label": "<b>1755</b>\\n(Apr '07)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1784",
+            "label": "<b>1784</b>\\n(Oct '07)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1812",
+            "label": "<b>1812</b>\\n(Apr '08)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "1919",
+            "label": "<b>1919</b>\\n(Apr '10)",
+            "graphic_size": "90",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "90",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#4e6181",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "90",
+            "breadcrumb_label_bg_enabled": "false"
+        },
+        {
+            "id": "unmismandates",
+            "label": "36 mandates",
+            "tooltip": "Click to see list of mandates on the right side of the screen",
+            "graphic_shape": "diamond",
+            "graphic_size": "70",
+            "graphic_fill_color": "#56A5EC",
+            "label_bg_line_color": "#dddddd",
+            "selected_graphic_shape": "diamond",
+            "selected_graphic_size": "70",
+            "selected_graphic_fill_color": "#56A5EC"
+        },
+        {
+            "id": "unmisperson",
+            "label": "",
+            "graphic_size": "55",
+            "graphic_fill_color": "#f9f9f9",
+            "graphic_line_color": "#dddddd",
+            "label_bg_enabled": "false",
+            "selected_graphic_size": "55",
+            "selected_graphic_line_color": "#4e6181",
+            "selected_graphic_fill_color": "#ffffff",
+            "selected_label_font_color": "#ffffff",
+            "selected_label_bg_enabled": "false",
+            "breadcrumb_graphic_size": "55",
+            "breadcrumb_label_bg_enabled": "false",
+            "left_icon_url": "./images/person.png",
+            "selected_left_icon_url": "./images/person.png"
+        },
+        {
+            "id": "unmisdollar",
+            "label": "1 079 530 000",
+            "tooltip": "budget US$ 2006-2007",
+            "left_icon_url": "./images/dollar.png",
+            "selected_left_icon_url": "./images/dollar.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        },
+        {
+            "id": "unmisinternationalcivilian",
+            "label": "1018",
+            "tooltip": "international civilians",
+            "left_icon_url": "./images/internationalcivilian.png",
+            "selected_left_icon_url": "./images/internationalcivilian.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        },
+        {
+            "id": "unmismilitary",
+            "label": "10000",
+            "tooltip": "military personnel",
+            "left_icon_url": "./images/military.png",
+            "selected_left_icon_url": "./images/military.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        },
+        {
+            "id": "unmisnationalcivilian",
+            "label": "2623",
+            "tooltip": "national civilians",
+            "left_icon_url": "./images/nationalcivilian.png",
+            "selected_left_icon_url": "./images/nationalcivilian.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        },
+        {
+            "id": "unmisobserver",
+            "label": "750",
+            "tooltip": "observers",
+            "left_icon_url": "./images/observer.png",
+            "selected_left_icon_url": "./images/observer.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        },
+        {
+            "id": "unmispolice",
+            "label": "715",
+            "tooltip": "civilian police",
+            "left_icon_url": "./images/police.png",
+            "selected_left_icon_url": "./images/police.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        },
+        {
+            "id": "unmisvolunteer",
+            "label": "214",
+            "tooltip": "volunteers",
+            "left_icon_url": "./images/volunteer.png",
+            "selected_left_icon_url": "./images/volunteer.png",
+            "right_icon_url": "./images/pixel.png",
+            "selected_right_icon_url": "./images/pixel.png"
+        }
+    ],
+    "edges": [
+        {
+            "id": "unmis-1590",
+            "tail_node_id": "unmis",
+            "head_node_id": "1590",
+            "arrowhead": "true",
+            "edge_length_weight": "1",
+            "source": 0,
+            "target": 1
+        },
+        {
+            "id": "1590-1627",
+            "tail_node_id": "1590",
+            "head_node_id": "1627",
+            "arrowhead": "true",
+            "source": 1,
+            "target": 2
+        },
+        {
+            "id": "1627-1663",
+            "tail_node_id": "1627",
+            "head_node_id": "1663",
+            "arrowhead": "true",
+            "source": 2,
+            "target": 3
+        },
+        {
+            "id": "1663-1706",
+            "tail_node_id": "1663",
+            "head_node_id": "1706",
+            "arrowhead": "true",
+            "source": 3,
+            "target": 4
+        },
+        {
+            "id": "1706-1709",
+            "tail_node_id": "1706",
+            "head_node_id": "1709",
+            "arrowhead": "true",
+            "source": 4,
+            "target": 5
+        },
+        {
+            "id": "1709-1714",
+            "tail_node_id": "1709",
+            "head_node_id": "1714",
+            "arrowhead": "true",
+            "source": 5,
+            "target": 6
+        },
+        {
+            "id": "1714-1755",
+            "tail_node_id": "1714",
+            "head_node_id": "1755",
+            "arrowhead": "true",
+            "source": 6,
+            "target": 7
+        },
+        {
+            "id": "1755-1784",
+            "tail_node_id": "1755",
+            "head_node_id": "1784",
+            "arrowhead": "true",
+            "source": 7,
+            "target": 8
+        },
+        {
+            "id": "1784-1812",
+            "tail_node_id": "1784",
+            "head_node_id": "1812",
+            "arrowhead": "true",
+            "source": 8,
+            "target": 9
+        },
+        {
+            "id": "1812-1919",
+            "tail_node_id": "1812",
+            "head_node_id": "1919",
+            "arrowhead": "true",
+            "source": 9,
+            "target": 10
+        },
+        {
+            "id": "unmis-unmismandates",
+            "tail_node_id": "unmis",
+            "head_node_id": "unmismandates",
+            "edge_length_weight": "1",
+            "source": 0,
+            "target": 11
+        },
+        {
+            "id": "unmis-unmisperson",
+            "tail_node_id": "unmis",
+            "head_node_id": "unmisperson",
+            "edge_length_weight": "1",
+            "source": 0,
+            "target": 12
+        },
+        {
+            "id": "unmis-unmisdollar",
+            "tail_node_id": "unmis",
+            "head_node_id": "unmisdollar",
+            "edge_length_weight": "1",
+            "source": 0,
+            "target": 13
+        },
+        {
+            "id": "unmisperson-unmisinternationalcivilian",
+            "tail_node_id": "unmisperson",
+            "head_node_id": "unmisinternationalcivilian",
+            "source": 12,
+            "target": 14
+        },
+        {
+            "id": "unmisperson-unmismilitary",
+            "tail_node_id": "unmisperson",
+            "head_node_id": "unmismilitary",
+            "source": 12,
+            "target": 15
+        },
+        {
+            "id": "unmisperson-unmisnationalcivilian",
+            "tail_node_id": "unmisperson",
+            "head_node_id": "unmisnationalcivilian",
+            "source": 12,
+            "target": 16
+        },
+        {
+            "id": "unmisperson-unmisobserver",
+            "tail_node_id": "unmisperson",
+            "head_node_id": "unmisobserver",
+            "source": 12,
+            "target": 17
+        },
+        {
+            "id": "unmisperson-unmispolice",
+            "tail_node_id": "unmisperson",
+            "head_node_id": "unmispolice",
+            "source": 12,
+            "target": 18
+        },
+        {
+            "id": "unmisperson-unmisvolunteer",
+            "tail_node_id": "unmisperson",
+            "head_node_id": "unmisvolunteer",
+            "source": 12,
+            "target": 19
+        }
+    ]
+}

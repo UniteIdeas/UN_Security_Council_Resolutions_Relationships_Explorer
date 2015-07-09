@@ -1,0 +1,77 @@
+License Agreement
+
+This software license agreement ("Agreement") is a legal agreement between you ("User"), either an individual or, if purchased or otherwise acquired by or for an entity, an entity, and Asterisq Innovation. Read it carefully before using the software.  By using the software, you are agreeing to become bound by the terms of this agreement.
+
+1. Definitions
+
+a) "Asterisq" means Asterisq Innovation. and its licensors, if any.
+b) "Software Product" means only the Asterisq software programs and third party software programs, in each case, supplied by Asterisq herewith, and corresponding documentation, associated media, printed materials, and online or electronic documentation, and all updates or upgrades of the above that are provided to you by Asterisq.
+c) "Software Product" includes but is not limited to all versions of Constellation Roamer&trade;.
+d) "Software Runtime" means the software program files that are used during runtime execution.
+e) "Software Runtime" includes only the Adobe Flash runtime binary file (.swf file) and any files required by the Adobe Flash runtime binary file during runtime execution.
+f) "Licensed Domain Name" means the internet domain name, [DOMAIN_NAME], all sub-domains, and ports.
+
+2. License Grants
+
+a) You may install and use the Software Product, in binary form, on any number of server computers for the purpose of publishing the Software Runtime in a webpage which is within the Licensed Domain Name.
+b) You may install and use the Software Product, in binary form, on any number of personal computers for the purpose of developing software which uses the Software Product.
+c) You may publish the Software Runtime in any webpage which is under the Licensed Domain Name.
+d) You may create back-ups of the software for purposes of archiving.
+e) Your license rights under this Agreement are non-exclusive.
+
+3. License Restrictions
+
+a) You may not share, install, or use the Software Product concurrently on different server computers.
+b) You may not make or distribute copies of the Software Product, or transfer the Software Product to any computer which has not been granted a license.
+c) You may not publish the Software Runtime in any webpage which is not under the Licensed Domain Name.
+d) You may not publish or distribute the Software Product in any website or webpage.
+e) You may not alter, merge, modify, adapt or translate the Software Product, or decrypt, reverse engineer, disassemble, or otherwise reduce the Software Product to a human-perceivable form.
+f) You may not sell, rent, lease, or sublicense the Software Product.
+g) You may not modify the Software Product or create derivative works based upon the Software Product.
+h) You shall not use the Software Product to develop any software or other technology having the same primary function as the Software Product, including but not limited to using the Software Product in any development or test procedure that seeks to develop like software or other technology, or to determine if such software or other technology performs in a similar manner as the Software Product.
+i) You may not tamper with any copyright protection and/or time limit mechanisms built into the Software Product.
+j) You may not remove or obscure any copyright or trademark notices.
+
+4. Term of License. Asterisq retains the right to revoke this license at any time but otherwise grants the User this license on a permanent basis.
+
+5. User's Evaluation and Reports. All User comments, reports of difficulties or problems with the Software Product, and all suggestions for improvement of the Software Product, shall become the sole property of Asterisq, to be used by Asterisq in any manner it sees fit without additional compensation to User. User shall have no claim to joint authorship of the Software Product.
+
+6. User's Obligations to Protect Software Product. Asterisq is the sole owner of the Software Product and all rights not specifically granted in this license are reserved by Asterisq. Asterisq has expended substantial sums and devoted substantial resources to the development of the Software Product, and has substantial proprietary interests and valuable trade secrets in them. As a continuing condition of this license, User covenants that it shall:
+a) keep all copies of the Software Product solely in its possession.
+b) use its best efforts to protect the Software Product from unauthorized use, reproduction, publication or distribution.
+
+7. Copyrights. Asterisq is the sole and exclusive owner of the copyright interests in the Software Product and all derivative works. User's rights to such software and documentation shall be governed solely by its rights as a licensee under this Agreement. The Software Product does contain code copyrighted to and licensed by third parties. This code may be governed by the license agreements of the third parties. Please see the copyright notices section at the end of this license agreement for details. While license agreements of third party code may confer rights of free distribution to all parties, such rights only pertain to the third party code and not code copyrighted by Asterisq.
+
+8. Disclaimer of All Warranties/Limitation of Remedies. User acknowledges that the Software Product is being made available to User on an AS IS basis, and that Asterisq makes no warranties, express or implied, with respect to the Software Product. Asterisq SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ANY WARRANTIES UNDER THE UNIFORM COMPUTER INFORMATIONAL TRANSACTIONS ACT, AS MAY BE ADOPTED BY ANY JURISDICTION FROM TIME TO TIME. IN NO EVENT WILL Asterisq BE LIABLE FOR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE, OR INABILITY TO USE, THE Software Product, EVEN IF Asterisq HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN PARTICULAR, Asterisq SHALL NOT BE LIABLE FOR THE LOSS OF INFORMATION OR DATA ARISING FROM THE USE OR INABILITY TO USE THE Software Product. Asterisq'S MAXIMUM LIABILITY FOR ANY CLAIM ARISING FROM THE LICENSE OR USE OF THE Software Product, INCLUDING, WITHOUT LIMITATION, CLAIMS BASED UPON Asterisq'S NEGLIGENCE, SHALL BE LIMITED TO THE AMOUNT Asterisq CHARGES FOR A COMMERCIALLY RELEASED VERSION OF THE Software Product. The remedy set forth above is exclusive and in lieu of all others, oral or written, expressed or implied. No developer distributor, employee, or agent is authorized to extend any warranty or to modify or extend the above remedy in any manner. SOME PROVINCE OR STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR THE LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM PROVINCE TO PROVINCE OR STATE TO STATE.
+
+9. Lawful Use. User represents and warrants to Asterisq that User will not use the Software Product in any unlawful manner or in any manner that violates the copyright interests or other property rights of any third party. In addition, User shall take all reasonable measures necessary to ensure it does not use the Software Product in violation of the laws of other countries.
+
+10. Indemnification. User shall indemnify and hold Asterisq harmless against any claim, expense, loss, damage, or other liability, including, without limitation, attorneys' fees, arising out of or connected with User's use of the Software Product, or the violation of any of User's warranties under this Agreement.
+
+11. Remedies for Breach. In the event User breaches any warranty, covenant or other term of this Agreement, Asterisq shall be entitled to terminate this Agreement and the license hereunder immediately and to seek all legal and equitable remedies available to it under British Columbia law and applicable laws of Canada. User acknowledges that breach of any of the covenants of this agreement would result in irreparable and continuing damage to Asterisq in an amount not readily ascertainable and for which there would be no adequate remedy at law. In the event of such a breach, Asterisq shall have the right to seek immediate injunctive relief, in addition to its other remedies hereunder.
+
+12. Attorneys' Fees. If a party to this Agreement breaches any term of this Agreement, then the other party shall be entitled to recover all expenses of whatever form or nature, costs and attorneys' fees reasonably incurred to enforce the terms of this Agreement, including such costs or fees as may be awarded in arbitration or by a court at trial or on appeal. In addition, in the event either party to this Agreement becomes a debtor subject to the Bankruptcy Code, the non-debtor party shall be entitled to recover any expenses, costs and fees, including attorneys' fees, incurred in connection with enforcing its rights against the debtor party, whether those rights arise under this contract or involve matters arising solely under the Bankruptcy Code.
+
+13. Non-Waiver. The failure or delay of any party to require performance of, or to otherwise enforce, any condition or other provision of this Agreement shall not waive or otherwise limit that party's right to enforce or pursue remedies for the breach of any such provision or condition. Any waiver by any party of any particular condition or provision of this Agreement, including this non-waiver provision, shall not constitute a waiver or limitation on that party's right to enforce performance or pursue remedies for the breach of any other condition or provision of this Agreement.
+
+14. Severability. If any court of competent jurisdiction finds any term of this Agreement, or of any other document or instrument referred to or contemplated in this Agreement, to be invalid or unenforceable, such determination shall not affect the validity and enforceability of the remainder of the Agreement.
+
+15. Paragraph Headings. All paragraph headings in this Agreement appear for convenience of reference, and shall not affect the meaning or interpretation of the Agreement.
+
+16. Successor Interests. This Agreement may not be assigned by User without the prior written consent of Asterisq. Subject to this restriction, this Agreement is binding upon and shall inure to the benefit of the heirs, successors, assigns, legatees, devisees, bankruptcy estates, administrators, personal representatives and executors of each of the parties.
+
+17. Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the province of British Columbia, without regard to British Columbia's conflict of law provisions, and by applicable federal copyright law.
+
+18. Jurisdiction, Venue. The parties agree that any suit, action or arbitration proceeding arising out of or relating to this Agreement shall be brought in Vancouver, British Columbia, and the parties expressly consent to the personal jurisdiction over them of any provincial or federal court in Vancouver, British Columbia.
+
+19. Amendments. This Agreement may be amended or modified only by a written instrument executed by the parties which expressly states the intent of the parties to modify or amend this Agreement.
+
+20. Entire Agreement. This Agreement constitutes the entire agreement between the parties pertaining to the subject matter of the Agreement and supersedes all prior discussions, negotiations, understandings, representations and agreements, whether oral or written. All terms of this Agreement are contractual and not mere recitals.
+
+21. Electronic Execution. Execution of this Agreement shall occur and may be evidenced by transmission of your electronic assent to its terms through your checking the "I accept the terms of the license agreement" (or words to that effect) checkbox below. If you agree to the terms of this Agreement, check the "I accept the terms of the license agreement" (or words to that effect) checkbox below.
+
+COPYRIGHT NOTICES
+
+Software Product contains Adobe Flash software by Adobe, Inc., Copyright © 1995-2008 Adobe, Inc. All rights reserved.
+Adobe and Flash are trademarks of Adobe, Inc.
+

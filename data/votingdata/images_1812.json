@@ -1,0 +1,86 @@
+{
+    "title": "1812",
+    "uniformImageWidth": "52",
+    "uniformImageHeight": "100",
+    "viewbox_width": "1500",
+    "viewbox_height": "120",
+    "imageBorderDefault": "white",
+    "imageBorderHighlight": "white",
+    "image": [
+        {
+            "position": "1",
+            "name": "USA",
+            "vote": "y"
+        },
+        {
+            "position": "2",
+            "name": "GRBR",
+            "vote": "y"
+        },
+        {
+            "position": "3",
+            "name": "RUS",
+            "vote": "y"
+        },
+        {
+            "position": "4",
+            "name": "FRAN",
+            "vote": "y"
+        },
+        {
+            "position": "5",
+            "name": "CHIN",
+            "vote": "y"
+        },
+        {
+            "position": "7",
+            "name": "BELG",
+            "vote": "y"
+        },
+        {
+            "position": "8",
+            "name": "BURK",
+            "vote": "y"
+        },
+        {
+            "position": "9",
+            "name": "CSTR",
+            "vote": "y"
+        },
+        {
+            "position": "10",
+            "name": "HRV",
+            "vote": "y"
+        },
+        {
+            "position": "11",
+            "name": "IDSA",
+            "vote": "y"
+        },
+        {
+            "position": "12",
+            "name": "ITLY",
+            "vote": "y"
+        },
+        {
+            "position": "13",
+            "name": "LBYA",
+            "vote": "y"
+        },
+        {
+            "position": "14",
+            "name": "PAN",
+            "vote": "y"
+        },
+        {
+            "position": "15",
+            "name": "SAFR",
+            "vote": "y"
+        },
+        {
+            "position": "16",
+            "name": "VTNM",
+            "vote": "y"
+        }
+    ]
+}

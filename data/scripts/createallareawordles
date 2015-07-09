@@ -1,0 +1,18 @@
+rm interm/sres/sres*
+java -jar soft/saxon9.jar ../data.xml getthrustareas.xsl
+cd interm/sres
+for i in `ls .`; do
+  #words kept together
+  sed 's/ /~/g' $i > $i.seded
+  #all expressions lower case
+  awk '{ print tolower($0) }' $i.seded > $i.awked
+  #unique expressions
+  #sort -b -d -f rawmission.awked | uniq -i > $i.uniq
+  #create wordle
+  java -jar ../../soft/ibm-word-cloud.jar -c ../../wordleconfig.txt -w 330 -h 250 < $i.awked > $i_temp.png
+  convert -border 0 -bordercolor "grey" $i_temp.png $i.png
+  cp $i.png ../../../final
+  rm $i_temp.png
+done
+cd ../..
+

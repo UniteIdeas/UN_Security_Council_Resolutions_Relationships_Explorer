@@ -1,0 +1,18 @@
+rm interm/missions/*
+for name in mission budget personnel; do
+  xsltproc $name.xsl ../missions.xml > interm/missions/raw$name
+  cd interm/missions
+  #words kept together
+  sed 's/ /~/g' raw$name > raw$name.seded
+  #all expressions lower case
+  awk '{ print tolower($0) }' raw$name.seded > raw$name.awked
+  #unique expressions
+  #sort -b -d -f rawmission.awked | uniq -i > rawmission.uniq
+  #create wordle
+  java -jar ../../soft/ibm-word-cloud.jar -c ../../wordleconfig.txt -w 330 -h 250 < raw$name.awked > raw$name.png
+  convert -border 0 -bordercolor "grey" raw$name.png $name.png
+  #border 2
+  cp $name.png ../../../final
+  cd ../..
+done
+

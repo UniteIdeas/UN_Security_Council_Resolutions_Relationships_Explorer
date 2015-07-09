@@ -1,0 +1,62 @@
+<data>
+  <mission>
+    <name desc="Name">unmis</name>
+    <country desc="Country">Sudan</country>
+    <hq>
+      <city desc="HQ city">Khartoum</city>
+      <country desc="HQ country">Sudan</country>
+    </hq>
+    <representatives>
+      <rep>
+        <name desc="Rep. from 09/07">Ashraf Qazi</name>
+        <!-- from>September 2007</from -->
+      </rep>
+      <rep>
+        <name desc="Rep. between 03/05 and 09/07 - non grata">Jan Pronk</name>
+        <!-- from>March 2005</from>
+        <to>Spetember 2007</to>
+        <comment>non-grata</comment -->
+      </rep>
+    </representatives>
+    <creation>
+      <date desc="Creation date">24 March 2005</date>
+      <res desc="Creation resolution">1590</res>
+      <externalDoc>
+        <name desc="Creation related doc.">Comprehensive Peace Agreement</name>
+        <link/>
+      </externalDoc>
+    </creation>
+    <end>
+      <date desc="End date - estimated">30 April 2011</date>
+      <res desc="End resolution">1919</res>
+    </end>
+    <areas>
+      <area desc="Thrust area">Humanitarian Assistance</area>
+      <area desc="Thrust area">Promote and protect</area>
+    </areas>
+    <personnel>
+      <military>
+        <total desc="Military personnel">10000</total>
+        <observers desc="Observers">750</observers>
+        <civilianPolice desc="Civilian police">715</civilianPolice>
+      </military>
+      <civilian>
+        <international desc="International civilian">1018</international>
+        <national desc="National civilian">2623</national>
+        <volunteers desc="Volunteers">214</volunteers>
+      </civilian>
+    </personnel>
+    <finances>
+      <budget>
+        <!-- period>2006-2007</period -->
+        <dollarAmount desc="Budget 2006-2007 - US Dollars">1 079 530 000</dollarAmount>
+      </budget>
+    </finances>
+    <misc>
+      <elem category="people">
+        <!-- role>journalist</role -->
+        <name desc="Famous related journalist">Lubna Al-Hussein</name>
+      </elem>
+    </misc>
+  </mission>
+</data>

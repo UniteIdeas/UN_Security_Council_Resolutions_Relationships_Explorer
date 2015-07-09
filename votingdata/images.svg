@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" title="Resolution 1590" width="1500" height="120" viewBox="0 0 1500 120" id="imagesSVG" imageBorderDefault="white" imageBorderHighlight="white">
+  <svg id="image1svg" width="60px" height="100px" x="0px" y="0px">
+    <rect id="image1Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image1" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image1Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image2svg" width="60px" height="100px" x="60px" y="0px">
+    <rect id="image2Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image2" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image2Label" name="UK" font-size="10pt" fill="black" x="10" y="90">UK</text>
+  </svg>
+  <svg id="image3svg" width="60px" height="100px" x="120px" y="0px">
+    <rect id="image3Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image3" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image3Label" name="Russia" font-size="10pt" fill="black" x="10" y="90">Russia</text>
+  </svg>
+  <svg id="image4svg" width="60px" height="100px" x="180px" y="0px">
+    <rect id="image4Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image4" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image4Label" name="france" font-size="10pt" fill="black" x="10" y="90">france</text>
+  </svg>
+  <svg id="image5svg" width="60px" height="100px" x="240px" y="0px">
+    <rect id="image5Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image5" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image5Label" name="China" font-size="10pt" fill="black" x="10" y="90">China</text>
+  </svg>
+  <svg id="image6svg" width="60px" height="100px" x="300px" y="0px">
+    <rect id="image6Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image6" width="60" height="100" xlink:href="&#10;            images/whiteperson.png&#10;          "/>
+    <text id="image6Label" name="" font-size="10pt" fill="black" x="10" y="90"/>
+  </svg>
+  <svg id="image7svg" width="60px" height="100px" x="360px" y="0px">
+    <rect id="image7Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image7" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image7Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image8svg" width="60px" height="100px" x="420px" y="0px">
+    <rect id="image8Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image8" width="60" height="100" xlink:href="&#10;            images/redperson.png&#10;          "/>
+    <text id="image8Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image9svg" width="60px" height="100px" x="480px" y="0px">
+    <rect id="image9Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image9" width="60" height="100" xlink:href="&#10;            images/redperson.png&#10;          "/>
+    <text id="image9Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image10svg" width="60px" height="100px" x="540px" y="0px">
+    <rect id="image10Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image10" width="60" height="100" xlink:href="&#10;            images/greyperson.png&#10;          "/>
+    <text id="image10Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image11svg" width="60px" height="100px" x="600px" y="0px">
+    <rect id="image11Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image11" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image11Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image12svg" width="60px" height="100px" x="660px" y="0px">
+    <rect id="image12Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image12" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image12Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image13svg" width="60px" height="100px" x="720px" y="0px">
+    <rect id="image13Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image13" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image13Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image14svg" width="60px" height="100px" x="780px" y="0px">
+    <rect id="image14Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image14" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image14Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image15svg" width="60px" height="100px" x="840px" y="0px">
+    <rect id="image15Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image15" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image15Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image16svg" width="60px" height="100px" x="900px" y="0px">
+    <rect id="image16Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image16" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image16Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image17svg" width="60px" height="100px" x="960px" y="0px">
+    <rect id="image17Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image17" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image17Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image18svg" width="60px" height="100px" x="1020px" y="0px">
+    <rect id="image18Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image18" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image18Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image19svg" width="60px" height="100px" x="1080px" y="0px">
+    <rect id="image19Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image19" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image19Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image20svg" width="60px" height="100px" x="1140px" y="0px">
+    <rect id="image20Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image20" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image20Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+  <svg id="image21svg" width="60px" height="100px" x="1200px" y="0px">
+    <rect id="image21Rect" width="100%" height="100%" fill="white" stroke="white" stroke-width="1"/>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" id="image21" width="60" height="100" xlink:href="&#10;            images/greenperson.png&#10;          "/>
+    <text id="image21Label" name="USA" font-size="10pt" fill="black" x="10" y="90">USA</text>
+  </svg>
+</svg>

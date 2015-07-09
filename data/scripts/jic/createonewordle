@@ -1,0 +1,3 @@
+#! /bin/sh
+java -jar ibm-word-cloud.jar -c ./wordleconfig.txt -w 330 -h 250 < $1 > $1.png
+

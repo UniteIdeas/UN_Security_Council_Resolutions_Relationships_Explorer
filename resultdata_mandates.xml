@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<graph_data>
+<nodes>
+
+<node id="unmismandates" 
+label="36 mandates"
+graphic_shape="diamond"
+graphic_size="70"
+graphic_fill_color="#56A5EC"/>
+
+<node id="peace"
+label="peace and security"/>
+<node id="dev"
+label="development"/>
+<node id="humanrights"
+label="human rights"/>
+<node id="humanitarian" 
+label="humanitarian"/>
+<node id="crosscutting"
+label="cross-cutting"/>
+<node id="benchmarks" 
+label="benchmarks"/>
+
+<node id="promoteandprotect" label="promote and protect"
+label_bg_line_color="#92C7C7"/>
+<node id="monitoring" label="monitoring"
+label_bg_line_color="#92C7C7"/>
+<node id="childrenandarmedconflict" label="children and armed conflict"
+label_bg_line_color="#92C7C7"/>
+<node id="womenpeacesecurity" label="women, peace security"
+label_bg_line_color="#92C7C7"/>
+<node id="ddr" label="ddr"
+label_bg_line_color="#92C7C7"/>
+<node id="ssr" label="ssr"
+label_bg_line_color="#92C7C7"/>
+<node id="police" label="police"
+label_bg_line_color="#92C7C7"/>
+<node id="mineaction" label="mine action"
+label_bg_line_color="#92C7C7"/>
+<node id="electoralassistance" label="electoral assistance"
+label_bg_line_color="#92C7C7"/>
+<node id="facilitationmediation" label="facilitation, mediation"
+label_bg_line_color="#92C7C7"/>
+<node id="peaceagreementmonitoring" label="peace agreement monitoring"
+label_bg_line_color="#92C7C7"/>
+<node id="conflictprevention" label="conflict prevention"
+label_bg_line_color="#92C7C7"/>
+<node id="borderissues" label="border issues"
+label_bg_line_color="#92C7C7"/>
+<node id="support" label="support/coordination"
+label_bg_line_color="#92C7C7"/>
+<node id="refugees" label="refugees"
+label_bg_line_color="#92C7C7"/>
+<node id="ruleoflaw" label="rule of law"
+label_bg_line_color="#92C7C7"/>
+<node id="promoteruleoflaw" label="promote rule of law"
+label_bg_line_color="#92C7C7"/>
+<node id="judicialandlegal" label="judicial and legal reforms"
+label_bg_line_color="#92C7C7"/>
+<node id="prisons" label="prisons"
+label_bg_line_color="#92C7C7"/>
+<node id="peacekeeping" label="peacekeeping"/>
+<node id="territorialsecurity" label="territorial security"/>
+<node id="protectionofunpersonnel" label="protection of un personnel"/>
+<node id="protectionofcivilians" label="protection of civilians"/>
+<node id="protectionofhumanitarian" label="protection of humanitarian personnel"/>
+<node id="bordermonitoring" label="border monitoring"/>
+<node id="movementmonitoring" label="monitoring of movement of armed groups"/>
+<node id="ceasefiremonitoring" label="ceasefire monitoring"/>
+<node id="sanctionsenforcement" label="sanctions enforcement"/>
+<node id="civmitcoordination" label="civilian-military coordination"/>
+<node id="cccoordination" label="coordination"/>
+<node id="ofdonors" label="of donors"/>
+<node id="ofinternationalengagements" label="of international engagements"/>
+<node id="withlocalunagencies" label="with local un agencies"/>
+<node id="withregionalunentities" label="with regional un entities"/>
+<node id="publicinformation" label="public information"/>
+<node id="regionalpeace" label="regional peace and security"/>
+<node id="orgs" label="cooperation with regional organizations"/>
+<node id="regionalsec" label="support regional security"/>
+<node id="cchumanrights" label="human rights"/>
+<node id="ccwps" label="wps"/>
+<node id="cccac" label="cac"/>
+<node id="ccpoc" label="poc"/>
+
+<node 
+id="1590" 
+label="1590
+(Mar '05/VII/f)"/>
+<node 
+id="1663" 
+label="1663
+(Mar '06)"/>
+<node 
+id="1706" 
+label="1706
+(Aug '06/VIIf)"/>
+<node 
+id="1919" 
+label="1919
+(Apr '10)"/>
+
+</nodes>
+
+<edges>
+<edge id="unmismandates-humanrights" tail_node_id="unmismandates" head_node_id="humanrights"/>
+<edge id="unmismandates-peace" tail_node_id="unmismandates" head_node_id="peace"/>
+<edge id="unmismandates-dev" tail_node_id="unmismandates" head_node_id="dev"/>
+<edge id="unmismandates-humanitarian" tail_node_id="unmismandates" head_node_id="humanitarian"/>
+<edge id="unmismandates-intlaw" tail_node_id="unmismandates" head_node_id="intlaw"/>
+<edge id="unmismandates-crosscutting" tail_node_id="unmismandates" head_node_id="crosscutting"/>
+<edge id="unmismandates-benchmarks" tail_node_id="unmismandates" head_node_id="benchmarks"/>
+
+<edge id="humanrights-promoteandprotect" tail_node_id="humanrights" head_node_id="promoteandprotect"/>
+<edge id="humanrights-monitoring" tail_node_id="humanrights" head_node_id="monitoring"/>
+<edge id="humanrights-childrenandarmedconflict" tail_node_id="humanrights" head_node_id="childrenandarmedconflict"/>
+<edge id="humanrights-womenpeacesecurity" tail_node_id="humanrights" head_node_id="womenpeacesecurity"/>
+
+<edge id="peace-ddr" tail_node_id="peace" head_node_id="ddr"/>
+<edge id="peace-ssr" tail_node_id="peace" head_node_id="ssr"/>
+<edge id="ssr-police" tail_node_id="ssr" head_node_id="police"/>
+<edge id="peace-mineaction" tail_node_id="peace" head_node_id="mineaction"/>
+<edge id="peace-electoralassistance" tail_node_id="peace" head_node_id="electoralassistance"/>
+<edge id="peace-facilitationmediation" tail_node_id="peace" head_node_id="facilitationmediation"/>
+<edge id="peace-peaceagreementmonitoring" tail_node_id="peace" head_node_id="peaceagreementmonitoring"/>
+<edge id="peace-conflictprevention" tail_node_id="peace" head_node_id="conflictprevention"/>
+<edge id="peace-borderissues" tail_node_id="peace" head_node_id="borderissues"/>
+
+<edge id="humanitarian-support" tail_node_id="humanitarian" head_node_id="support"/>
+<edge id="humanitarian-refugees" tail_node_id="humanitarian" head_node_id="refugees"/>
+
+<edge id="humanrights-ruleoflaw" tail_node_id="humanrights" head_node_id="ruleoflaw"/>
+<edge id="ruleoflaw-promoteruleoflaw" tail_node_id="ruleoflaw" head_node_id="promoteruleoflaw"/>
+<edge id="ruleoflaw-judicialandlegal" tail_node_id="ruleoflaw" head_node_id="judicialandlegal"/>
+<edge id="ruleoflaw-prisons" tail_node_id="ruleoflaw" head_node_id="prisons"/>
+
+<edge id="peace-peacekeeping" tail_node_id="peace" head_node_id="peacekeeping"/>
+<edge id="peacekeeping-territorialsecurity" tail_node_id="peacekeeping" head_node_id="territorialsecurity"/>
+<edge id="peacekeeping-protectionofunpersonnel" tail_node_id="peacekeeping" head_node_id="protectionofunpersonnel"/>
+<edge id="peacekeeping-protectionofcivilians" tail_node_id="peacekeeping" head_node_id="protectionofcivilians"/>
+<edge id="peacekeeping-protectionofhumanitarian" tail_node_id="peacekeeping" head_node_id="protectionofhumanitarian"/>
+<edge id="peacekeeping-bordermonitoring" tail_node_id="peacekeeping" head_node_id="bordermonitoring"/>
+<edge id="peacekeeping-movementmonitoring" tail_node_id="peacekeeping" head_node_id="movementmonitoring"/>
+<edge id="peace-ceasefiremonitoring" tail_node_id="peace" head_node_id="ceasefiremonitoring"/>
+<edge id="peace-sanctionsenforcement" tail_node_id="peace" head_node_id="sanctionsenforcement"/>
+<edge id="peace-civmitcoordination" tail_node_id="peace" head_node_id="civmitcoordination"/>
+
+<edge id="crosscutting-cccoordination" tail_node_id="crosscutting" head_node_id="cccoordination"/>
+<edge id="cccoordination-ofdonors" tail_node_id="cccoordination" head_node_id="ofdonors"/>
+<edge id="cccoordination-ofinternationalengagements" tail_node_id="cccoordination" head_node_id="ofinternationalengagements"/>
+<edge id="cccoordination-withlocalunagencies" tail_node_id="cccoordination" head_node_id="withlocalunagencies"/>
+<edge id="cccoordination-withregionalunentities" tail_node_id="cccoordination" head_node_id="withregionalunentities"/>
+
+<edge id="crosscutting-publicinformation" tail_node_id="crosscutting" head_node_id="publicinformation"/>
+
+<edge id="peace-regionalpeace" tail_node_id="peace" head_node_id="regionalpeace"/>
+<edge id="regionalpeace-orgs" tail_node_id="regionalpeace" head_node_id="orgs"/>
+<edge id="regionalpeace-regionalsec" tail_node_id="regionalpeace" head_node_id="regionalsec"/>
+
+<edge id="crosscutting-cchumanrights" tail_node_id="crosscutting" head_node_id="cchumanrights"/>
+<edge id="crosscutting-ccwps" tail_node_id="crosscutting" head_node_id="ccwps"/>
+<edge id="crosscutting-cccac" tail_node_id="crosscutting" head_node_id="cccac"/>
+<edge id="crosscutting-ccpoc" tail_node_id="crosscutting" head_node_id="ccpoc"/>
+
+<edge id="promoteandprotect-1590" tail_node_id="promoteandprotect" head_node_id="1590"/>
+<edge id="promoteandprotect-1706" tail_node_id="promoteandprotect" head_node_id="1706"/>
+<edge id="monitoring-1706" tail_node_id="monitoring" head_node_id="1706"/>
+<edge id="childrenandarmedconflict-1706" tail_node_id="childrenandarmedconflict" head_node_id="1706"/>
+<edge id="childrenandarmedconflict-1919" tail_node_id="childrenandarmedconflict" head_node_id="1919"/>
+<edge id="womenpeacesecurity-1706" tail_node_id="womenpeacesecurity" head_node_id="1706"/>
+<edge id="ddr-1590" tail_node_id="ddr" head_node_id="1590"/>
+<edge id="ddr-1706" tail_node_id="ddr" head_node_id="1706"/>
+<edge id="ddr-1919" tail_node_id="ddr" head_node_id="1919"/>
+<edge id="police-1706" tail_node_id="police" head_node_id="1706"/>
+<edge id="police-1919" tail_node_id="police" head_node_id="1919"/>
+<edge id="mineaction-1590" tail_node_id="mineaction" head_node_id="1590"/>
+<edge id="mineaction-1706" tail_node_id="mineaction" head_node_id="1706"/>
+<edge id="electoralassistance-1590" tail_node_id="electoralassistance" head_node_id="1590"/>
+<edge id="electoralassistance-1706" tail_node_id="electoralassistance" head_node_id="1706"/>
+<edge id="electoralassistance-1919" tail_node_id="electoralassistance" head_node_id="1919"/>
+<edge id="facilitationmediation-1590" tail_node_id="facilitationmediation" head_node_id="1590"/>
+<edge id="facilitationmediation-1706" tail_node_id="facilitationmediation" head_node_id="1706"/>
+<edge id="facilitationmediation-1919" tail_node_id="facilitationmediation" head_node_id="1919"/>
+<edge id="peaceagreementmonitoring-1590" tail_node_id="peaceagreementmonitoring" head_node_id="1590"/>
+<edge id="peaceagreementmonitoring-1706" tail_node_id="peaceagreementmonitoring" head_node_id="1706"/>
+<edge id="peaceagreementmonitoring-1919" tail_node_id="peaceagreementmonitoring" head_node_id="1919"/>
+<edge id="conflictprevention-1919" tail_node_id="conflictprevention" head_node_id="1919"/>
+<edge id="borderissues-1919" tail_node_id="borderissues" head_node_id="1919"/>
+<edge id="support-1590" tail_node_id="support" head_node_id="1590"/>
+<edge id="support-1706" tail_node_id="support" head_node_id="1706"/>
+<edge id="refugees-1590" tail_node_id="refugees" head_node_id="1590"/>
+<edge id="refugees-1706" tail_node_id="refugees" head_node_id="1706"/>
+<edge id="refugees-1919" tail_node_id="refugees" head_node_id="1919"/>
+<edge id="promoteruleoflaw-1706" tail_node_id="promoteruleoflaw" head_node_id="1706"/>
+<edge id="promoteruleoflaw-1919" tail_node_id="promoteruleoflaw" head_node_id="1919"/>
+<edge id="judicialandlegal-1706" tail_node_id="judicialandlegal" head_node_id="1706"/>
+<edge id="prisons-1919" tail_node_id="prisons" head_node_id="1919"/>
+
+</edges>
+
+<!-- graphiccolor="#FF9900" -->
+
+</graph_data>

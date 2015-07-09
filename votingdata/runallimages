@@ -1,0 +1,1 @@
+for i in 1590 1627 1663 1706 1755 1784 1812 1919; do ./runimages $i; done

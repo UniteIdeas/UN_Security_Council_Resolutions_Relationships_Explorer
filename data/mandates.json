@@ -1,0 +1,1299 @@
+{
+
+    "nodes": [
+
+        {
+
+            "id": "unmismandates",
+
+            "label": "36 mandates",
+
+            "graphic_shape": "diamond",
+
+            "graphic_size": "70",
+
+            "graphic_fill_color": "#56A5EC"
+
+        },
+
+        {
+
+            "id": "peace",
+
+            "label": "peace and security"
+
+        },
+
+        {
+
+            "id": "dev",
+
+            "label": "development"
+
+        },
+
+        {
+
+            "id": "humanrights",
+
+            "label": "human rights"
+
+        },
+
+        {
+
+            "id": "humanitarian",
+
+            "label": "humanitarian"
+
+        },
+
+        {
+
+            "id": "crosscutting",
+
+            "label": "cross-cutting"
+
+        },
+
+        {
+
+            "id": "benchmarks",
+
+            "label": "benchmarks"
+
+        },
+
+        {
+
+            "id": "promoteandprotect",
+
+            "label": "promote and protect",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "monitoring",
+
+            "label": "monitoring",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "childrenandarmedconflict",
+
+            "label": "children and armed conflict",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "womenpeacesecurity",
+
+            "label": "women, peace security",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "ddr",
+
+            "label": "ddr",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "ssr",
+
+            "label": "ssr",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "police",
+
+            "label": "police",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "mineaction",
+
+            "label": "mine action",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "electoralassistance",
+
+            "label": "electoral assistance",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "facilitationmediation",
+
+            "label": "facilitation, mediation",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "peaceagreementmonitoring",
+
+            "label": "peace agreement monitoring",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "conflictprevention",
+
+            "label": "conflict prevention",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "borderissues",
+
+            "label": "border issues",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "support",
+
+            "label": "support/coordination",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "refugees",
+
+            "label": "refugees",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "ruleoflaw",
+
+            "label": "rule of law",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "promoteruleoflaw",
+
+            "label": "promote rule of law",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "judicialandlegal",
+
+            "label": "judicial and legal reforms",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "prisons",
+
+            "label": "prisons",
+
+            "label_bg_line_color": "#92C7C7"
+
+        },
+
+        {
+
+            "id": "peacekeeping",
+
+            "label": "peacekeeping"
+
+        },
+
+        {
+
+            "id": "territorialsecurity",
+
+            "label": "territorial security"
+
+        },
+
+        {
+
+            "id": "protectionofunpersonnel",
+
+            "label": "protection of un personnel"
+
+        },
+
+        {
+
+            "id": "protectionofcivilians",
+
+            "label": "protection of civilians"
+
+        },
+
+        {
+
+            "id": "protectionofhumanitarian",
+
+            "label": "protection of humanitarian personnel"
+
+        },
+
+        {
+
+            "id": "bordermonitoring",
+
+            "label": "border monitoring"
+
+        },
+
+        {
+
+            "id": "movementmonitoring",
+
+            "label": "monitoring of movement of armed groups"
+
+        },
+
+        {
+
+            "id": "ceasefiremonitoring",
+
+            "label": "ceasefire monitoring"
+
+        },
+
+        {
+
+            "id": "sanctionsenforcement",
+
+            "label": "sanctions enforcement"
+
+        },
+
+        {
+
+            "id": "civmitcoordination",
+
+            "label": "civilian-military coordination"
+
+        },
+
+        {
+
+            "id": "cccoordination",
+
+            "label": "coordination"
+
+        },
+
+        {
+
+            "id": "ofdonors",
+
+            "label": "of donors"
+
+        },
+
+        {
+
+            "id": "ofinternationalengagements",
+
+            "label": "of international engagements"
+
+        },
+
+        {
+
+            "id": "withlocalunagencies",
+
+            "label": "with local un agencies"
+
+        },
+
+        {
+
+            "id": "withregionalunentities",
+
+            "label": "with regional un entities"
+
+        },
+
+        {
+
+            "id": "publicinformation",
+
+            "label": "public information"
+
+        },
+
+        {
+
+            "id": "regionalpeace",
+
+            "label": "regional peace and security"
+
+        },
+
+        {
+
+            "id": "orgs",
+
+            "label": "cooperation with regional organizations"
+
+        },
+
+        {
+
+            "id": "regionalsec",
+
+            "label": "support regional security"
+
+        },
+
+        {
+
+            "id": "cchumanrights",
+
+            "label": "human rights"
+
+        },
+
+        {
+
+            "id": "ccwps",
+
+            "label": "wps"
+
+        },
+
+        {
+
+            "id": "cccac",
+
+            "label": "cac"
+
+        },
+
+        {
+
+            "id": "ccpoc",
+
+            "label": "poc"
+
+        },
+
+        {
+
+            "id": "1590",
+
+            "label": "1590 (Mar '05/VII/f)"
+
+        },
+
+        {
+
+            "id": "1663",
+
+            "label": "1663 (Mar '06)"
+
+        },
+
+        {
+
+            "id": "1706",
+
+            "label": "1706 (Aug '06/VIIf)"
+
+        },
+
+        {
+
+            "id": "1919",
+
+            "label": "1919 (Apr '10)"
+
+        }
+
+    ],
+
+    "edges": [
+
+        {
+
+            "id": "unmismandates-humanrights",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "humanrights"
+
+        },
+
+        {
+
+            "id": "unmismandates-peace",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "peace"
+
+        },
+
+        {
+
+            "id": "unmismandates-dev",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "dev"
+
+        },
+
+        {
+
+            "id": "unmismandates-humanitarian",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "humanitarian"
+
+        },
+
+        {
+
+            "id": "unmismandates-intlaw",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "intlaw"
+
+        },
+
+        {
+
+            "id": "unmismandates-crosscutting",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "crosscutting"
+
+        },
+
+        {
+
+            "id": "unmismandates-benchmarks",
+
+            "tail_node_id": "unmismandates",
+
+            "head_node_id": "benchmarks"
+
+        },
+
+        {
+
+            "id": "humanrights-promoteandprotect",
+
+            "tail_node_id": "humanrights",
+
+            "head_node_id": "promoteandprotect"
+
+        },
+
+        {
+
+            "id": "humanrights-monitoring",
+
+            "tail_node_id": "humanrights",
+
+            "head_node_id": "monitoring"
+
+        },
+
+        {
+
+            "id": "humanrights-childrenandarmedconflict",
+
+            "tail_node_id": "humanrights",
+
+            "head_node_id": "childrenandarmedconflict"
+
+        },
+
+        {
+
+            "id": "humanrights-womenpeacesecurity",
+
+            "tail_node_id": "humanrights",
+
+            "head_node_id": "womenpeacesecurity"
+
+        },
+
+        {
+
+            "id": "peace-ddr",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "ddr"
+
+        },
+
+        {
+
+            "id": "peace-ssr",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "ssr"
+
+        },
+
+        {
+
+            "id": "ssr-police",
+
+            "tail_node_id": "ssr",
+
+            "head_node_id": "police"
+
+        },
+
+        {
+
+            "id": "peace-mineaction",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "mineaction"
+
+        },
+
+        {
+
+            "id": "peace-electoralassistance",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "electoralassistance"
+
+        },
+
+        {
+
+            "id": "peace-facilitationmediation",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "facilitationmediation"
+
+        },
+
+        {
+
+            "id": "peace-peaceagreementmonitoring",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "peaceagreementmonitoring"
+
+        },
+
+        {
+
+            "id": "peace-conflictprevention",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "conflictprevention"
+
+        },
+
+        {
+
+            "id": "peace-borderissues",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "borderissues"
+
+        },
+
+        {
+
+            "id": "humanitarian-support",
+
+            "tail_node_id": "humanitarian",
+
+            "head_node_id": "support"
+
+        },
+
+        {
+
+            "id": "humanitarian-refugees",
+
+            "tail_node_id": "humanitarian",
+
+            "head_node_id": "refugees"
+
+        },
+
+        {
+
+            "id": "humanrights-ruleoflaw",
+
+            "tail_node_id": "humanrights",
+
+            "head_node_id": "ruleoflaw"
+
+        },
+
+        {
+
+            "id": "ruleoflaw-promoteruleoflaw",
+
+            "tail_node_id": "ruleoflaw",
+
+            "head_node_id": "promoteruleoflaw"
+
+        },
+
+        {
+
+            "id": "ruleoflaw-judicialandlegal",
+
+            "tail_node_id": "ruleoflaw",
+
+            "head_node_id": "judicialandlegal"
+
+        },
+
+        {
+
+            "id": "ruleoflaw-prisons",
+
+            "tail_node_id": "ruleoflaw",
+
+            "head_node_id": "prisons"
+
+        },
+
+        {
+
+            "id": "peace-peacekeeping",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "peacekeeping"
+
+        },
+
+        {
+
+            "id": "peacekeeping-territorialsecurity",
+
+            "tail_node_id": "peacekeeping",
+
+            "head_node_id": "territorialsecurity"
+
+        },
+
+        {
+
+            "id": "peacekeeping-protectionofunpersonnel",
+
+            "tail_node_id": "peacekeeping",
+
+            "head_node_id": "protectionofunpersonnel"
+
+        },
+
+        {
+
+            "id": "peacekeeping-protectionofcivilians",
+
+            "tail_node_id": "peacekeeping",
+
+            "head_node_id": "protectionofcivilians"
+
+        },
+
+        {
+
+            "id": "peacekeeping-protectionofhumanitarian",
+
+            "tail_node_id": "peacekeeping",
+
+            "head_node_id": "protectionofhumanitarian"
+
+        },
+
+        {
+
+            "id": "peacekeeping-bordermonitoring",
+
+            "tail_node_id": "peacekeeping",
+
+            "head_node_id": "bordermonitoring"
+
+        },
+
+        {
+
+            "id": "peacekeeping-movementmonitoring",
+
+            "tail_node_id": "peacekeeping",
+
+            "head_node_id": "movementmonitoring"
+
+        },
+
+        {
+
+            "id": "peace-ceasefiremonitoring",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "ceasefiremonitoring"
+
+        },
+
+        {
+
+            "id": "peace-sanctionsenforcement",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "sanctionsenforcement"
+
+        },
+
+        {
+
+            "id": "peace-civmitcoordination",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "civmitcoordination"
+
+        },
+
+        {
+
+            "id": "crosscutting-cccoordination",
+
+            "tail_node_id": "crosscutting",
+
+            "head_node_id": "cccoordination"
+
+        },
+
+        {
+
+            "id": "cccoordination-ofdonors",
+
+            "tail_node_id": "cccoordination",
+
+            "head_node_id": "ofdonors"
+
+        },
+
+        {
+
+            "id": "cccoordination-ofinternationalengagements",
+
+            "tail_node_id": "cccoordination",
+
+            "head_node_id": "ofinternationalengagements"
+
+        },
+
+        {
+
+            "id": "cccoordination-withlocalunagencies",
+
+            "tail_node_id": "cccoordination",
+
+            "head_node_id": "withlocalunagencies"
+
+        },
+
+        {
+
+            "id": "cccoordination-withregionalunentities",
+
+            "tail_node_id": "cccoordination",
+
+            "head_node_id": "withregionalunentities"
+
+        },
+
+        {
+
+            "id": "crosscutting-publicinformation",
+
+            "tail_node_id": "crosscutting",
+
+            "head_node_id": "publicinformation"
+
+        },
+
+        {
+
+            "id": "peace-regionalpeace",
+
+            "tail_node_id": "peace",
+
+            "head_node_id": "regionalpeace"
+
+        },
+
+        {
+
+            "id": "regionalpeace-orgs",
+
+            "tail_node_id": "regionalpeace",
+
+            "head_node_id": "orgs"
+
+        },
+
+        {
+
+            "id": "regionalpeace-regionalsec",
+
+            "tail_node_id": "regionalpeace",
+
+            "head_node_id": "regionalsec"
+
+        },
+
+        {
+
+            "id": "crosscutting-cchumanrights",
+
+            "tail_node_id": "crosscutting",
+
+            "head_node_id": "cchumanrights"
+
+        },
+
+        {
+
+            "id": "crosscutting-ccwps",
+
+            "tail_node_id": "crosscutting",
+
+            "head_node_id": "ccwps"
+
+        },
+
+        {
+
+            "id": "crosscutting-cccac",
+
+            "tail_node_id": "crosscutting",
+
+            "head_node_id": "cccac"
+
+        },
+
+        {
+
+            "id": "crosscutting-ccpoc",
+
+            "tail_node_id": "crosscutting",
+
+            "head_node_id": "ccpoc"
+
+        },
+
+        {
+
+            "id": "promoteandprotect-1590",
+
+            "tail_node_id": "promoteandprotect",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "promoteandprotect-1706",
+
+            "tail_node_id": "promoteandprotect",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "monitoring-1706",
+
+            "tail_node_id": "monitoring",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "childrenandarmedconflict-1706",
+
+            "tail_node_id": "childrenandarmedconflict",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "childrenandarmedconflict-1919",
+
+            "tail_node_id": "childrenandarmedconflict",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "womenpeacesecurity-1706",
+
+            "tail_node_id": "womenpeacesecurity",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "ddr-1590",
+
+            "tail_node_id": "ddr",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "ddr-1706",
+
+            "tail_node_id": "ddr",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "ddr-1919",
+
+            "tail_node_id": "ddr",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "police-1706",
+
+            "tail_node_id": "police",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "police-1919",
+
+            "tail_node_id": "police",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "mineaction-1590",
+
+            "tail_node_id": "mineaction",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "mineaction-1706",
+
+            "tail_node_id": "mineaction",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "electoralassistance-1590",
+
+            "tail_node_id": "electoralassistance",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "electoralassistance-1706",
+
+            "tail_node_id": "electoralassistance",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "electoralassistance-1919",
+
+            "tail_node_id": "electoralassistance",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "facilitationmediation-1590",
+
+            "tail_node_id": "facilitationmediation",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "facilitationmediation-1706",
+
+            "tail_node_id": "facilitationmediation",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "facilitationmediation-1919",
+
+            "tail_node_id": "facilitationmediation",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "peaceagreementmonitoring-1590",
+
+            "tail_node_id": "peaceagreementmonitoring",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "peaceagreementmonitoring-1706",
+
+            "tail_node_id": "peaceagreementmonitoring",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "peaceagreementmonitoring-1919",
+
+            "tail_node_id": "peaceagreementmonitoring",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "conflictprevention-1919",
+
+            "tail_node_id": "conflictprevention",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "borderissues-1919",
+
+            "tail_node_id": "borderissues",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "support-1590",
+
+            "tail_node_id": "support",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "support-1706",
+
+            "tail_node_id": "support",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "refugees-1590",
+
+            "tail_node_id": "refugees",
+
+            "head_node_id": "1590"
+
+        },
+
+        {
+
+            "id": "refugees-1706",
+
+            "tail_node_id": "refugees",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "refugees-1919",
+
+            "tail_node_id": "refugees",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "promoteruleoflaw-1706",
+
+            "tail_node_id": "promoteruleoflaw",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "promoteruleoflaw-1919",
+
+            "tail_node_id": "promoteruleoflaw",
+
+            "head_node_id": "1919"
+
+        },
+
+        {
+
+            "id": "judicialandlegal-1706",
+
+            "tail_node_id": "judicialandlegal",
+
+            "head_node_id": "1706"
+
+        },
+
+        {
+
+            "id": "prisons-1919",
+
+            "tail_node_id": "prisons",
+
+            "head_node_id": "1919"
+
+        }
+
+    ]
+
+}

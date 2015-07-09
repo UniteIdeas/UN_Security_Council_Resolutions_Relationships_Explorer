@@ -1,0 +1,16 @@
+./makediff 1590 1663
+./makediff 1663 1706 
+./makediff 1706 1919
+
+./makediff 1590 1627
+./makediff 1627 1663
+./makediff 1706 1709
+./makediff 1709 1714
+./makediff 1714 1755
+./makediff 1755 1784
+./makediff 1784 1812
+./makediff 1812 1919
+
+convert -background white label:@blank.txt blank.gif
+cp blank.gif ../final/.
+

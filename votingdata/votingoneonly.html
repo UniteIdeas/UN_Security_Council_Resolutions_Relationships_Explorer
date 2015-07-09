@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>SCR Votes</title>
+
+<style type="text/css">
+input {width: 150px;}
+</style>
+
+<script type="text/ecmascript">
+
+  // set global variables
+  var svgns = "http://www.w3.org/2000/svg";
+  var htmlObj, SVGDoc, SVGRoot, viewBox, goLeft, goRight, innerSVG;
+  var currentSize, currentPosition, currentId, currentLabel;
+  var imageWidth; // same for all images
+  var currentImage;
+  var imageBorderDefault, imageBorderHighlight;
+
+  function Initialize(mission) {
+    htmlObj = document.getElementById("images"); // embedded image
+    SVGDoc = htmlObj.getSVGDocument(); // image doc root node (i.e., can apply getelementbyid)
+    SVGRoot = SVGDoc.documentElement; // root svg node (i.e., can get node attribute)
+    //var title = SVGRoot.getAttribute('title');
+    //document.getElementById("title").innerHTML = title;
+    imageWidth = parseInt(SVGDoc.getElementById("image1").getAttribute('width'));
+    currentImage = parseInt(SVGRoot.getAttribute('imageSelected'));
+    positionViewBox(currentImage * imageWidth);
+    var currentImageName = SVGDoc.getElementById("image" + currentImage + "Label").getAttribute('name');
+    document.getElementById("currentImage").innerHTML = currentImageName;
+    imageBorderDefault = SVGRoot.getAttribute('imageBorderDefault');
+    imageBorderHighlight = SVGRoot.getAttribute('imageBorderHighlight');
+  }
+
+  function positionViewBox(coordinate) {
+    viewBox = SVGRoot.getAttribute('viewBox');
+    var viewVals = viewBox.split(' ');
+    var xmin = parseFloat(viewVals[0]);
+    var xmax = parseFloat(viewVals[2]);
+    var diff;
+    if (coordinate > xmax) {
+      diff = coordinate - xmax;
+      xmax = coordinate;
+      xmin += diff;
+    }
+    else
+      if (coordinate < xmin) {
+        diff = xmin - coordinate;
+        xmin = coordinate;
+        xmax -= diff;
+      }
+
+    viewVals[0] = xmin;
+    //viewVals[2] = xmax;
+    SVGRoot.setAttribute('viewBox', viewVals.join(' '));
+  }
+ 
+</script>
+</head>
+
+</head>
+
+<body onload="Initialize()"bgcolor="#FFFFFF">
+
+<table>
+<tr><td><img src="votingdata/images/greenperson.png"/></td><td>Y</td><td/><td/><td/>
+<td><img src="votingdata/images/redperson.png"/></td><td>N</td><td/><td/><td/>
+<td><img src="votingdata/images/greyperson.png"/></td><td>A</td></tr>
+</table>
+
+<h3><span id="title"/></h3>
+<embed id="images" 
+type="image/svg+xml" 
+src="votingdata/images_1590.svg">
+</body>
+</html>

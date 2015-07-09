@@ -1,0 +1,192 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+		<title>SCR Relationships</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			
+      var centerNode = 'unmis';
+			var flashvars = {
+				config_url: 'config.xml',
+                                visualization_mode: 'tree',
+				selected_node_id: centerNode,
+                        //path_node_id: 'JUBA',
+				instance_id: '1',
+				passthru: 'myVar0=value&myVar1=3.4',
+				debug: 'false'
+			};
+			
+			var params = {
+				bgcolor: '#ffffff',
+				allowScriptAccess: 'sameDomain',
+				quality: 'high',
+				scale: 'noscale'
+			};
+			
+			var attributes = {
+				id: "constellation_roamer",
+				name: "constellation_roamer"
+			};
+			
+			swfobject.embedSWF(
+				"constellation_roamer.swf", "treeholder", "100%", "85%",
+				"9", "expressInstall.swf", flashvars, params, attributes);
+
+		
+			function constellationRoamer_onVisualizationModeChange(mode)
+			{
+				alert("Visualization mode changed to: " + mode);
+			}
+			
+		</script>
+
+		<style type="text/css">
+			html, body {
+				font-family: Arial, sans-serif;
+				font-size: 11pt;
+				height: 100%;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+				width: 100%;
+			}
+			#treeholder {
+				height: 100%;
+				width: 100%;
+			}
+			label {
+				font-weight: bold;
+			}
+		</style>
+
+		<script type="text/javascript">
+
+               function getSelectedNodeID(){
+                  var roamer = swfobject.getObjectById('constellation_roamer');
+                  return roamer.getSelectedNodeID();
+               }
+
+               function setSelectedNodeID(nodeID){
+                  var roamer = swfobject.getObjectById('constellation_roamer');
+                  roamer.setSelectedNodeID(nodeID);
+                  //centerNode = nodeID;
+               }
+
+               function setPath(fromNodeID, toNodeID){
+                  var roamer = swfobject.getObjectById('constellation_roamer');
+                  roamer.setPathNodeIDs(fromNodeID, toNodeID);
+                  //centerNode = fromNodeID;
+               }
+
+	      
+              
+                // show flight leaving from center on timeline
+              function constellationRoamer_onEdgeClick(edgeID) {
+		  var ar = edgeID.split('-');
+                  var loc = parent.diffdetails.location.href;
+                  var last = loc.lastIndexOf("/");
+                  var file = loc.substring(last+1);  
+                  if (file != "diffdetails.html") {
+                    parent.diffdetails.location='diffdetails.html';
+                  }
+                  parent.diffdetails.document.getElementById('diffimage').src='./data/final/'+ar[0]+'_'+ar[1]+'_summary.gif';
+		  //parent.diffdetails.window.location.reload();
+	        }
+
+               /* // show flights arriving to center on timeline
+	        function constellationRoamer_onEdgeDoubleClick(edgeID) {
+                  var ar = edgeID.split('-');
+                  if (ar[0]==centerNode) parent.tl.tlfilter(ar[1],ar[0]);
+                  else parent.tl.tlfilter(ar[0],ar[1]);
+	        }
+
+              function constellationRoamer_onClick(nodeID) {
+                  centerNode = nodeID;
+              }
+              */
+
+              function constellationRoamer_onClick(nodeID) {
+                  if (nodeID == "unmismandates") {
+			//window.open('mandates.html','mandates','menubar, toolbar, location, directories, status, width=1040, height=780, left=200');
+                        parent.diffdetails.location='mandates.html';
+                  }
+                  else if (!isNaN(nodeID)) {
+                        parent.diffdetails.location='voting.html?' + nodeID;
+                  }
+                  else {
+                    parent.diffdetails.location='diffdetails.html';
+                  }
+              }
+
+
+/*function pausecomp(millis) {
+    var date = new Date();
+    var curDate = null;
+
+    do { curDate = new Date(); }
+    while(curDate-date < millis);
+  }
+*/
+
+              var monuc = ["ARU","BANDUNDU","BARAKA","BENI","BUKAVU","BUNIA",
+                             "BUNYAKIRI","BUTA","DUNGU","ENTEBBE","FATAKI",
+                             "GBADOLITE","GEMENA","GOMA","ISIRO","KALEMIE",
+                             "KAMINA BASE","KANANGA","KASONGO","KIGOMA","KIKWIT",
+                             "KINDU","KINSHASA","KISANGANI","KOLWEZI","KONGOLO",
+				     "KWANDRUMA","LISALA","LUBUMBASHI","MAHAGI",
+                             "MALEMBA NKULU","MANONO","MASISI","MATADI","MBANDAKA",
+				     "MBUJI MAYI","MINEMBWE","MITWABA","MOBA","MUANDA",
+				     "NYABIONDO","NYUNZU","PUNIA","PWETO","SHABUNDA",
+				     "TSHELA","UVIRA","WALIKALE"];
+                var unmis = ["ABYEI","AWEIL","BENTIU","BOR","ED DAMAZIN",
+				     "EL OBEID","ENTEBBE","JUBA","JULUD","KADUGLI",
+				     "KHARTOUM","KURMUK","MALAKAL","MARIDI","MELUT ",
+				     "NASSER","PORT SUDAN","RAJA","RUMBEK","TORIT",
+				     "WAU","YAMBIO","YEI"];
+  
+               function setCityList(mission, elem) {
+                  var selmenu = document.getElementById(elem);
+                  for (var i=selmenu.length-1; i>0; i--)
+                    selmenu.remove(i);
+                  var ar;
+                  if (mission == "MONUC")
+                    ar = monuc; 
+                  else
+                    ar = unmis;
+                  if (elem == 'citylist') 
+                      selmenu.options[0]=new Option("Choose a center city...", "center");
+                  else if (elem == 'startcitylist')
+                      selmenu.options[0]=new Option("Choose a start city...", "start");
+                  else if (elem == 'targetcitylist')
+                      selmenu.options[0]=new Option("Choose a target city...", "target");
+                  for (var i=0; i<ar.length; i++)
+                      selmenu.options[i+1]=new Option(ar[i], ar[i]);
+                  selmenu.selectedIndex = 1; 
+                }
+
+                </script>
+</head>
+
+<body>
+	<fieldset style="border: 0">
+		<label for="missionname" style="float:left;margin-left:20px">Select mission as center node:</label>
+		<select NAME="missionname" onChange="setSelectedNodeID(missionname.value.toLowerCase()); return false;">
+		<!-- option value="" selected="true">Select...</option -->
+		<option value="UNMIS" selected="true">UNMIS</option>
+		<option value="MONUC">MONUC</option>
+		<option value="MINUSTAH">MINUSTAH</option>
+		<option value="UNAMID">UNAMID</option>
+		<option value="UNOCI">UNOCI</option>
+		</select>
+	</fieldset>
+
+	<div id="treeholder"></div>
+
+  <fieldset style="border: 1px solid #fff;margin-bottom: 20px;text-align: center;">
+		<input type="button" value="Cleanup navigation context" 
+           onclick="var roamer=swfobject.getObjectById('constellation_roamer'); roamer.setRootNodeID(roamer.getSelectedNodeID())" />
+	</fieldset>
+</body>
+</html>
+

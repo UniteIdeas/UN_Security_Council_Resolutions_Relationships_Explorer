@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<graph_data>
+<nodes>
+<node 
+	id="unmis" 
+	label="unmis"  
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="true"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_bg_enabled="true"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="true"
+	
+	left_icon_url ="./images/globe.png"
+	selected_left_icon_url ="./images/globe.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	tooltip="&lt;b&gt;name:&lt;/b&gt; unmis\n&lt;b&gt;country&lt;/b&gt;: sudan\n&lt;b&gt;hq city&lt;/b&gt;: khartoum\n&lt;b&gt;hq country&lt;/b&gt;: sudan\n&lt;b&gt;rep. from 09/07&lt;/b&gt;: ashraf qazi\n&lt;b&gt;rep. between 03/05 and 09/07 - non grata&lt;/b&gt;: jan pronk\n&lt;b&gt;creation date&lt;/b&gt;: 24 march 2005\n&lt;b&gt;creation resolution&lt;/b&gt;: 1590\n&lt;b&gt;creation related doc.&lt;/b&gt;: comprehensive peace agreement\n&lt;b&gt;end date - estimated&lt;/b&gt;: 30 april 2011\n&lt;b&gt;end resolution&lt;/b&gt;: 1919\n&lt;b&gt;thrust area&lt;/b&gt;: humanitarian assistance\n&lt;b&gt;thrust area&lt;/b&gt;: promote and protect\n&lt;b&gt;famous related journalist&lt;/b&gt;: lubna al-hussein"
+	/>
+<node 
+	id="1590" 
+	label="&lt;b&gt;1590&lt;/b&gt;\n(Mar '05/VII/f)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node id="1627" 
+	label="&lt;b&gt;1627&lt;/b&gt;\n(Sept '05)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node id="1663" 
+	label="&lt;b&gt;1663&lt;/b&gt;\n(March '06)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node 
+id="1706" 
+	label="&lt;b&gt;1706&lt;/b&gt;\n(Aug '06/VII/f)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node 
+id="1709" 
+	label="&lt;b&gt;1709&lt;/b&gt;\n(Sept '06)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node 
+id="1714" 
+	label="&lt;b&gt;1714&lt;/b&gt;\n(Oct '06)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node 
+id="1755" 
+	label="&lt;b&gt;1755&lt;/b&gt;\n(Apr '07)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node 
+id="1784" 
+	label="&lt;b&gt;1784&lt;/b&gt;\n(Oct '07)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node id="1812" 
+	label="&lt;b&gt;1812&lt;/b&gt;\n(Apr '08)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+<node id="1919" 
+	label="&lt;b&gt;1919&lt;/b&gt;\n(Apr '10)"
+	
+	graphic_size="90"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="90"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#4e6181"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="90"
+	breadcrumb_label_bg_enabled="false"
+	/>
+
+<node
+	id="unmismandates" 
+	label="36 mandates"
+	tooltip="Click to see list of mandates on the right side of the screen"
+	
+	graphic_shape="diamond"
+	graphic_size="70"
+	graphic_fill_color="#56A5EC"
+	
+	label_bg_line_color="#dddddd"
+	
+	selected_graphic_shape="diamond"
+	selected_graphic_size="70"
+	selected_graphic_fill_color="#56A5EC"
+	/>
+<node
+	id="unmisperson"
+	label=""
+	
+	graphic_size="55"
+	graphic_fill_color="#f9f9f9"
+	graphic_line_color="#dddddd"
+	label_bg_enabled="false"
+
+	selected_graphic_size="55"
+	selected_graphic_line_color="#4e6181"
+	selected_graphic_fill_color="#ffffff"
+	selected_label_font_color="#ffffff"
+	selected_label_bg_enabled="false"
+
+	breadcrumb_graphic_size="55"
+	breadcrumb_label_bg_enabled="false"
+	
+	left_icon_url="./images/person.png"
+	selected_left_icon_url="./images/person.png"
+	/>
+<node
+	id="unmisdollar"
+	label="1 079 530 000"
+	tooltip="budget US$ 2006-2007"
+	left_icon_url="./images/dollar.png"
+	selected_left_icon_url="./images/dollar.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+
+<node
+	id="unmisinternationalcivilian"
+	label="1018"
+	tooltip="international civilians"
+	left_icon_url="./images/internationalcivilian.png"
+	selected_left_icon_url="./images/internationalcivilian.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+<node
+	id="unmismilitary"
+	label="10000"
+	tooltip="military personnel"
+	left_icon_url="./images/military.png"
+	selected_left_icon_url="./images/military.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+<node
+	id="unmisnationalcivilian"
+	label="2623"
+	tooltip="national civilians"
+	left_icon_url="./images/nationalcivilian.png"
+	selected_left_icon_url="./images/nationalcivilian.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+<node
+	id="unmisobserver"
+	label="750"
+	tooltip="observers"
+	left_icon_url="./images/observer.png"
+	selected_left_icon_url="./images/observer.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+<node
+	id="unmispolice"
+	label="715"
+	tooltip="civilian police"
+	left_icon_url="./images/police.png"
+	selected_left_icon_url="./images/police.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+<node
+	id="unmisvolunteer"
+	label="214"
+	tooltip="volunteers"
+	left_icon_url="./images/volunteer.png"
+	selected_left_icon_url="./images/volunteer.png"
+	right_icon_url="./images/pixel.png"
+	selected_right_icon_url="./images/pixel.png"
+	/>
+
+</nodes>
+<edges>
+<edge id="unmis-1590" tail_node_id="unmis" head_node_id="1590" arrowhead="true" edge_length_weight="1"/>
+<edge id="1590-1627" tail_node_id="1590" head_node_id="1627" arrowhead="true"/>
+<edge id="1627-1663" tail_node_id="1627" head_node_id="1663" arrowhead="true"/>
+<edge id="1663-1706" tail_node_id="1663" head_node_id="1706" arrowhead="true"/>
+<edge id="1706-1709" tail_node_id="1706" head_node_id="1709" arrowhead="true"/>
+<edge id="1709-1714" tail_node_id="1709" head_node_id="1714" arrowhead="true"/>
+<edge id="1714-1755" tail_node_id="1714" head_node_id="1755" arrowhead="true"/>
+<edge id="1755-1784" tail_node_id="1755" head_node_id="1784" arrowhead="true"/>
+<edge id="1784-1812" tail_node_id="1784" head_node_id="1812" arrowhead="true"/>
+<edge id="1812-1919" tail_node_id="1812" head_node_id="1919" arrowhead="true"/>
+
+<!--edge id="1590-1663" tail_node_id="1590" head_node_id="1663" edge_line_thickness="5"/>
+<edge id="1663-1706" tail_node_id="1663" head_node_id="1706" edge_line_thickness="5" arrowhead="true"/>
+<edge id="1706-1919" tail_node_id="1706" head_node_id="1919" edge_line_thickness="5"/ -->
+
+<edge id="unmis-unmismandates" tail_node_id="unmis" head_node_id="unmismandates" edge_length_weight="1"/>
+<edge id="unmis-unmisperson" tail_node_id="unmis" head_node_id="unmisperson" edge_length_weight="1"/>
+<edge id="unmis-unmisdollar" tail_node_id="unmis" head_node_id="unmisdollar" edge_length_weight="1"/>
+<edge id="unmisperson-unmisinternationalcivilian" tail_node_id="unmisperson" head_node_id="unmisinternationalcivilian"/>
+<edge id="unmisperson-unmismilitary" tail_node_id="unmisperson" head_node_id="unmismilitary"/>
+<edge id="unmisperson-unmisnationalcivilian" tail_node_id="unmisperson" head_node_id="unmisnationalcivilian"/>
+<edge id="unmisperson-unmisobserver" tail_node_id="unmisperson" head_node_id="unmisobserver"/>
+<edge id="unmisperson-unmispolice" tail_node_id="unmisperson" head_node_id="unmispolice"/>
+<edge id="unmisperson-unmisvolunteer" tail_node_id="unmisperson" head_node_id="unmisvolunteer"/>
+
+</edges>
+
+<!-- graphic_fill_color="#FF9900" -->
+
+</graph_data>

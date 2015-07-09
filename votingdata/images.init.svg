@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" title="Project status" width="1250" height="250" viewBox="0 0 800 300" id="imagesSVG" imageSelected="4" imageBorderDefault="white" imageBorderHighlight="green">
+  <svg id="image1" width="250px" height="100px" x="0px" y="0px">
+    <rect id="image1Rect" width="100%" height="100%" fill="#CCFFCC" stroke="white" stroke-width="5"/>
+    <text id="image1Label" name="Requirements" font-size="&#10;            18pt&#10;          " fill="black" x="25px" y="40px">Requirements</text>
+    <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="links/reqs.html" target="_blank">
+      <text id="image1Link" font-size="12pt" x="25px" y="80px" fill="black"> 
+        Click for info
+      </text>
+    </a>
+  </svg>
+  <svg id="image2" width="250px" height="150px" x="250px" y="0px">
+    <rect id="image2Rect" width="100%" height="100%" fill="#FFCC00" stroke="white" stroke-width="5"/>
+    <text id="image2Label" name="Design" font-size="&#10;            18pt&#10;          " fill="black" x="25px" y="40px">Design</text>
+    <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="links/spec.html" target="_blank">
+      <text id="image2Link" font-size="12pt" x="25px" y="80px" fill="black"> 
+        Click for info
+      </text>
+    </a>
+  </svg>
+  <svg id="image3" width="250px" height="250px" x="500px" y="0px">
+    <rect id="image3Rect" width="100%" height="100%" fill="#FFFFCC" stroke="white" stroke-width="5"/>
+    <text id="image3Label" name="Implementation" font-size="&#10;            18pt&#10;          " fill="black" x="25px" y="40px">Implementation</text>
+    <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="links/" target="_blank">
+      <text id="image3Link" font-size="12pt" x="25px" y="80px" fill="black"> 
+        Click for info
+      </text>
+    </a>
+  </svg>
+  <svg id="image4" width="250px" height="200px" x="750px" y="0px">
+    <rect id="image4Rect" width="100%" height="100%" fill="#CCCCFF" stroke="green" stroke-width="5"/>
+    <circle cx="230" cy="20" r="10" stroke="none" stoke-width="2" fill="white"/>
+    <text id="image4Label" name="Test" font-size="&#10;            22pt&#10;          " fill="black" x="25px" y="40px">Test</text>
+    <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="links/" target="_blank">
+      <text id="image4Link" font-size="12pt" x="25px" y="80px" fill="black"> 
+        Click for info
+      </text>
+    </a>
+  </svg>
+  <svg id="image5" width="250px" height="100px" x="1000px" y="0px">
+    <rect id="image5Rect" width="100%" height="100%" fill="#CCFFFF" stroke="white" stroke-width="5"/>
+    <text id="image5Label" name="Deployment" font-size="&#10;            18pt&#10;          " fill="black" x="25px" y="40px">Deployment</text>
+    <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="links/" target="_blank">
+      <text id="image5Link" font-size="12pt" x="25px" y="80px" fill="black"> 
+        Click for info
+      </text>
+    </a>
+  </svg>
+</svg>

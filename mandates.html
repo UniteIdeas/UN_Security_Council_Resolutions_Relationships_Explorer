@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+		<title>SCR Relationships - Mandates</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			
+      var centerNode = 'unmismandates';
+			var flashvars = {
+				config_url: 'config_mandates.xml',
+        visualization_mode: 'tree',
+				selected_node_id: centerNode,
+				instance_id: '1',
+				passthru: 'myVar0=value&myVar1=3.4',
+				debug: 'false'
+			};
+			
+			var params = {
+				bgcolor: '#ffffff',
+				allowScriptAccess: 'sameDomain',
+				quality: 'high',
+				scale: 'noscale'
+			};
+			
+			var attributes = {
+				id: "constellation_roamer",
+				name: "constellation_roamer"
+			};
+			
+			swfobject.embedSWF(
+				"constellation_roamer.swf", "treeholder", "100%", "85%",
+				"9", "expressInstall.swf", flashvars, params, attributes);
+
+		</script>
+
+		<style type="text/css">
+			html, body {
+				font-family: Arial, sans-serif;
+				font-size: 11pt;
+				height: 100%;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+				width: 100%;
+			}
+			#treeholder {
+				height: 100%;
+				width: 100%;
+			}
+			label {
+				font-weight: bold;
+			}
+		</style>
+
+		<script type="text/javascript">
+
+			function getSelectedNodeID(){
+				var roamer = swfobject.getObjectById('constellation_roamer');
+				return roamer.getSelectedNodeID();
+			}
+
+			function setSelectedNodeID(nodeID){
+				var roamer = swfobject.getObjectById('constellation_roamer');
+				roamer.setSelectedNodeID(nodeID);;
+			}
+
+			function setPath(fromNodeID, toNodeID){
+				var roamer = swfobject.getObjectById('constellation_roamer');
+				roamer.setPathNodeIDs(fromNodeID, toNodeID);
+			}
+			
+		</script>
+	</head>
+
+	<body>
+
+	 <div id="treeholder"></div>
+
+	 <fieldset style="border: 0;margin-bottom: 20px;text-align:center">
+			<input type="button" value="Cleanup navigation context" 
+						 onclick="var roamer=swfobject.getObjectById('constellation_roamer'); roamer.setRootNodeID(roamer.getSelectedNodeID())" />
+	 </fieldset>
+	</body>
+</html>
+

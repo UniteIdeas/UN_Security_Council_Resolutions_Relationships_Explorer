@@ -1,0 +1,86 @@
+{
+    "title": "1919",
+    "uniformImageWidth": "52",
+    "uniformImageHeight": "100",
+    "viewbox_width": "1500",
+    "viewbox_height": "120",
+    "imageBorderDefault": "white",
+    "imageBorderHighlight": "white",
+    "image": [
+        {
+            "position": "1",
+            "name": "USA",
+            "vote": "y"
+        },
+        {
+            "position": "2",
+            "name": "GRBR",
+            "vote": "y"
+        },
+        {
+            "position": "3",
+            "name": "RUS",
+            "vote": "y"
+        },
+        {
+            "position": "4",
+            "name": "FRAN",
+            "vote": "y"
+        },
+        {
+            "position": "5",
+            "name": "CHIN",
+            "vote": "y"
+        },
+        {
+            "position": "7",
+            "name": "AUST",
+            "vote": "y"
+        },
+        {
+            "position": "8",
+            "name": "BIH",
+            "vote": "y"
+        },
+        {
+            "position": "9",
+            "name": "BRZL",
+            "vote": "y"
+        },
+        {
+            "position": "10",
+            "name": "GABN",
+            "vote": "y"
+        },
+        {
+            "position": "11",
+            "name": "JPN",
+            "vote": "y"
+        },
+        {
+            "position": "12",
+            "name": "LEBN",
+            "vote": "y"
+        },
+        {
+            "position": "13",
+            "name": "MEX",
+            "vote": "y"
+        },
+        {
+            "position": "14",
+            "name": "NRA",
+            "vote": "y"
+        },
+        {
+            "position": "15",
+            "name": "TRKY",
+            "vote": "y"
+        },
+        {
+            "position": "16",
+            "name": "UGAN",
+            "vote": "y"
+        }
+    ]
+}

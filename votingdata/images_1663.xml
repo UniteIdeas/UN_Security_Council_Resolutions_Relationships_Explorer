@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<images>
+   <title>1663</title>
+   <uniformImageWidth>52</uniformImageWidth>
+   <uniformImageHeight>100</uniformImageHeight>
+   <viewbox_width>1500</viewbox_width>
+   <viewbox_height>120</viewbox_height>
+   <imageBorderDefault>white</imageBorderDefault>
+   <imageBorderHighlight>white</imageBorderHighlight>
+   <image position="1" name="USA" vote="y"/>
+   <image position="2" name="GRBR" vote="y"/>
+   <image position="3" name="RUS" vote="y"/>
+   <image position="4" name="FRAN" vote="y"/>
+   <image position="5" name="CHIN" vote="y"/>
+   <image position="6" name="" vote="blankspot"/>
+   <image position="7" name="ARG" vote="y"/>
+   <image position="8" name="COD" vote="y"/>
+   <image position="9" name="DEN" vote="y"/>
+   <image position="10" name="GHAN" vote="y"/>
+   <image position="11" name="GRC" vote="y"/>
+   <image position="12" name="JPN" vote="y"/>
+   <image position="13" name="PERU" vote="y"/>
+   <image position="14" name="QTAR" vote="y"/>
+   <image position="15" name="SVK" vote="y"/>
+   <image position="16" name="TAZN" vote="y"/>
+</images>

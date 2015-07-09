@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>Dynamic Images</title>
+
+<style type="text/css">
+input {width: 150px;}
+</style>
+
+<script type="text/ecmascript">
+
+  // set global variables
+  var svgns = "http://www.w3.org/2000/svg";
+  var htmlObj, SVGDoc, SVGRoot, viewBox, goLeft, goRight, innerSVG;
+  var currentSize, currentPosition, currentId, currentLabel;
+  var imageWidth; // same for all images
+  var currentImage;
+  var imageBorderDefault, imageBorderHighlight;
+
+  function Initialize() {
+    htmlObj = document.getElementById("images"); // embedded image
+    SVGDoc = htmlObj.getSVGDocument(); // image doc root node (i.e., can apply getelementbyid)
+    SVGRoot = SVGDoc.documentElement; // root svg node (i.e., can get node attribute)
+    var title = SVGRoot.getAttribute('title');
+    document.getElementById("title").innerHTML = title;
+    imageWidth = parseInt(SVGDoc.getElementById("image1").getAttribute('width'));
+    currentImage = parseInt(SVGRoot.getAttribute('imageSelected'));
+    positionViewBox(currentImage * imageWidth);
+    var currentImageName = SVGDoc.getElementById("image" + currentImage + "Label").getAttribute('name');
+    document.getElementById("currentImage").innerHTML = currentImageName;
+    document.getElementById("initialImage").innerHTML = currentImageName;
+    // updateCurrentImageNotif();
+    imageBorderDefault = SVGRoot.getAttribute('imageBorderDefault');
+    imageBorderHighlight = SVGRoot.getAttribute('imageBorderHighlight');
+    goLeft = false; 
+    goRight = false;
+  }
+
+  function updateCurrentImageNotif() {
+      var currentImageName = SVGDoc.getElementById("image" + currentImage + "Label").getAttribute('name');
+      document.getElementById("currentImage").innerHTML = currentImageName;
+  }
+
+  function positionViewBox(coordinate) {
+    viewBox = SVGRoot.getAttribute('viewBox');
+    var viewVals = viewBox.split(' ');
+    var xmin = parseFloat(viewVals[0]);
+    var xmax = parseFloat(viewVals[2]);
+    var diff;
+    if (coordinate > xmax) {
+      diff = coordinate - xmax;
+      xmax = coordinate;
+      xmin += diff;
+    }
+    else
+      if (coordinate < xmin) {
+        diff = xmin - coordinate;
+        xmin = coordinate;
+        xmax -= diff;
+      }
+
+    viewVals[0] = xmin;
+    //viewVals[2] = xmax;
+    SVGRoot.setAttribute('viewBox', viewVals.join(' '));
+  }
+
+  // scroll
+  function panDoc(evt) {
+
+    viewBox = SVGRoot.getAttribute('viewBox');
+    var viewVals = viewBox.split(' ');
+    var oldImage;
+
+    if (goLeft == true) {
+      if (currentImage <= 1) {
+        alert("This is the leftmost image already");
+        goLeft = false;
+        return;
+      }
+      else {
+        oldImage = currentImage;
+        currentImage -=1;
+        viewVals[0] = parseFloat(viewVals[0]) - imageWidth;
+        //viewVals[2] -= imageWidth;
+      }
+      goLeft = false;
+    }
+
+    if (goRight == true) {
+      if (currentImage >= 5) {
+        alert("This is the rightmost image already");
+        goRight = false;
+        return;
+      }
+      else {
+        oldImage = currentImage;
+        currentImage +=1;
+        viewVals[0] = parseFloat(viewVals[0]) + imageWidth;
+        //viewVals[2] += imageWidth;
+      }
+      goRight = false;
+    }
+  
+    SVGRoot.setAttribute('viewBox', viewVals.join(' '));
+    innerSVG = SVGDoc.getElementById("image"+oldImage+'Rect');
+    innerSVG.setAttributeNS(null, "stroke", imageBorderDefault);
+    innerSVG = SVGDoc.getElementById("image"+currentImage+'Rect');
+    innerSVG.setAttributeNS(null, "stroke", imageBorderHighlight);
+
+    updateCurrentImageNotif();
+  } 
+
+  function increaseHeight(){
+      innerSVG = SVGDoc.getElementById("image"+currentImage);
+      currentSize = parseInt(innerSVG.getAttributeNS(null, 
+                                      "height").substr( 0, 3 ));
+      currentSize = currentSize + 50;
+      currentSize = currentSize + "px";
+      innerSVG.setAttributeNS(null, "height", currentSize);
+  }
+  
+  function decreaseHeight() {
+      innerSVG = SVGDoc.getElementById("image" + currentImage);
+      currentSize = parseInt(innerSVG.getAttributeNS(null, 
+                                      "height").substr( 0, 3 ));
+      currentSize = currentSize - 50;
+      currentSize = currentSize + "px";
+      innerSVG.setAttributeNS(null, "height", currentSize);
+  }
+
+  function zoomIn() {
+    if (SVGRoot.currentScale < 5){
+      SVGRoot.currentScale = SVGRoot.currentScale * 1.5;
+    }
+  }
+
+  function zoomOut() {
+    if (SVGRoot.currentScale > 0.3){
+      SVGRoot.currentScale = SVGRoot.currentScale * 0.67;
+    }
+  } 
+
+</script>
+</head>
+
+</head>
+
+<body onload="Initialize()" bgcolor="#EEEEFF">
+
+<form action="">
+
+<table>
+<tr>
+   <td>
+
+        <h2><span id="title"/></h2>
+<br>
+<br>
+        <embed id="images" 
+               type="image/svg+xml" 
+               src="images.svg">
+</td>
+</tr>
+</table>
+
+<br>
+<table>
+<tr>
+   <td colspan="3" height="40"><big><b>Initial state is:</b>
+               <span id="initialImage"></span></big></td>
+</tr>
+<tr>
+   <td colspan="3" height="40"><big><b>Current state is:</b>
+               <span id="currentImage"></span></big></td>
+</tr>
+<tr>
+   <td>
+       <input type="button" onclick="goLeft=true; panDoc()" 
+              value="&lt;&lt;&nbsp;&nbsp;&nbsp;Scroll Left" />
+   </td>
+   <td>
+      <input type="button" onclick="increaseHeight()"
+               value="Increase Height" />
+   </td>
+   <td>
+       <input type="button" onclick="goRight=true; panDoc()" 
+               value="Scroll Right&nbsp;&nbsp;&nbsp;&gt;&gt;" />
+   </td>
+</tr>
+<tr>
+   <td>
+      <input type="button" onclick="zoomIn()"
+               value="Zoom In" />
+   </td>
+   <td>
+      <input type="button" onclick="decreaseHeight()"
+               value="Decrease Height" />
+   </td>
+   <td>
+      <input type="button" onclick="zoomOut()"
+               value="Zoom Out" />
+   </td>
+</tr>
+</table>
+
+</form>
+
+<br><hr>
+<a href="./images.xml" target="_blank"><font color="grey">Link to input file</font></a>
+</body>
+</html>

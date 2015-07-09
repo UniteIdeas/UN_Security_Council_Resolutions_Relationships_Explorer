@@ -1,0 +1,5 @@
+./createallareawordles 2> error.txt
+echo "----"
+echo "ERRORS: "
+cat error.txt
+
